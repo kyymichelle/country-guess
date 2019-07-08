@@ -1,5 +1,5 @@
 # country-guess
-Simple country guessing game to test out React, Redux and GraphQL
+Simple country guessing game to test out Typescript with React, Redux and GraphQL
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

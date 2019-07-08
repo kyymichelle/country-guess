@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Router, Route, Link } from 'react-router-dom';
+
+import { Blog } from '.';
 
 const App: React.FC = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header">
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -18,9 +19,14 @@ const App: React.FC = () => {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+
+      {/* <Route path="/" exact component={Index} /> */}
+      <Router>
+        <Route path="/blog" component={Blog} />
+      </Router>
     </div>
   );
-}
+};
 
 export default App;
