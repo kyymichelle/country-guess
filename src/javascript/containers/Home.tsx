@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import { NavMain } from '../modules/Nav';
 
 export class Home extends React.Component<{}, {}> {
@@ -9,9 +9,12 @@ export class Home extends React.Component<{}, {}> {
 
   render() {
     return (
-      <div className="App">
+      <div className="page-home">
         <NavMain></NavMain>
-        <h1>Home</h1>
+        <Container>
+          <h1>Home</h1>
+          <p>HELLO</p>
+        </Container>
       </div>
     );
   }

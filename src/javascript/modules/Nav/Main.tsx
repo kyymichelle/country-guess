@@ -1,12 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Blog } from '../../containers';
+import { Nav, Navbar } from 'react-bootstrap';
 
 export const NavMain: React.FC = () => {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/blog">Blog</Link>
-    </nav>
+    <Navbar bg="dark" variant="dark">
+      <Nav>
+        <Nav.Link href="/">Home</Nav.Link>
+        <Nav.Link href="/blog">Blog</Nav.Link>
+      </Nav>
+    </Navbar>
   );
 };

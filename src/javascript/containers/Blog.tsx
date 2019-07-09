@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import BlogMarkdown from '../../static/markdown/blog.md';
 import { NavMain } from '../modules/Nav';
@@ -24,10 +25,12 @@ export class Blog extends React.Component<{}, State> {
     const { markdown } = this.state;
 
     return (
-      <div className="App">
+      <div className="page-blog">
         <NavMain></NavMain>
-        <h1>Blog</h1>
-        <ReactMarkdown source={markdown} />
+        <Container>
+          <h1>Blog</h1>
+          <ReactMarkdown source={markdown} />
+        </Container>
       </div>
     );
   }
