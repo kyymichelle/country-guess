@@ -7,7 +7,7 @@ import { Blog, Home } from '.';
 
 type Props = {};
 
-// type State {
+// type State = {
 //   count: number;
 // };
 
