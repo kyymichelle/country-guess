@@ -1,32 +1,31 @@
 import React from 'react';
-import './App.css';
-import { Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { Blog } from '.';
+import { NavMain } from '../modules/Nav';
 
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      {/* <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+import { Blog, Home } from '.';
 
-      {/* <Route path="/" exact component={Index} /> */}
-      <Router>
-        <Route path="/blog" component={Blog} />
-      </Router>
-    </div>
-  );
-};
+type Props = {};
 
-export default App;
+// type State {
+//   count: number;
+// };
+
+export class App extends React.Component<Props, {}> {
+  // state: State = {
+  //   count: 0
+  // };
+
+  render() {
+    return (
+      <div className="App">
+        <BrowserRouter>
+          <Switch>
+            <Route path="/" component={Home} exact />
+            <Route path="/blog" component={Blog} exact />
+          </Switch>
+        </BrowserRouter>
+      </div>
+    );
+  }
+}

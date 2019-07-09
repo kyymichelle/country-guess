@@ -1,9 +1,32 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-class BlogComponent extends Component {
+import { NavMain } from '../modules/Nav';
+
+export class Blog extends React.Component<{}, {}> {
+  // state: State = {
+  //   count: 0
+  // };
+
   render() {
-    return <div>WOOHOO</div>;
+    return (
+      <div className="App">
+        {/* <header className="App-header">
+    <p>
+      Edit <code>src/App.tsx</code> and save to reload.
+    </p>
+    <a
+      className="App-link"
+      href="https://reactjs.org"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Learn React
+    </a>
+  </header> */}
+
+        <NavMain></NavMain>
+        <h1>Blog</h1>
+      </div>
+    );
   }
 }
-
-export const Blog = BlogComponent;
