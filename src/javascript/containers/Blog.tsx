@@ -2,14 +2,14 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import BlogMarkdown from '../../static/markdown/blog.md';
-import { NavMain } from '../modules/Nav';
+import { NavMain } from '../components/Nav';
 
-type State = {
+interface BlogState {
   markdown: string;
-};
+}
 
-export class Blog extends React.Component<{}, State> {
-  state: State = {
+export class Blog extends React.Component<{}, BlogState> {
+  state: BlogState = {
     markdown: '',
   };
 

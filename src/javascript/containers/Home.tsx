@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { NavMain } from '../modules/Nav';
+import { NavMain } from '../components/Nav';
+import { CountryGuessGame } from '../components/CountryGuess';
 
 export class Home extends React.Component<{}, {}> {
   // state: State = {
@@ -13,7 +14,7 @@ export class Home extends React.Component<{}, {}> {
         <NavMain></NavMain>
         <Container>
           <h1>Home</h1>
-          <p>HELLO</p>
+          <CountryGuessGame countryAnswer="''"></CountryGuessGame>
         </Container>
       </div>
     );

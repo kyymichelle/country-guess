@@ -2,6 +2,10 @@
 
 The aim of this project is to make a simple word guessing game utilising this [GraphQL API](https://countries.trevorblades.com/). Along the way, I'd like to familiarise myself with using Typescript with React and Redux. Here's some notes I've taken :)
 
+#### Planning
+
+For the guessing game, the application will first grab a list of countries from the API to populate the store. Then the CountryGuess component can be passed random countries via its container. The CountryGuess component will initially be a fill-in-the-blanks string matching game, but I can later add more features to it like guess based on country flag or adjustable difficulty levels.
+
 #### Typescript & linting
 
 Decided to test out Typescript with this project. Because ESLint doesn't support it out of the box, but going ahead [ESLint will be supported in favour of TSLint](https://github.com/Microsoft/TypeScript/issues/29288#developer-productivity-tools-and-integration), I installed [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser)
