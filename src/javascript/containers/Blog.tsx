@@ -27,7 +27,7 @@ export class Blog extends React.Component<{}, BlogState> {
     return (
       <div className="page-blog">
         <NavMain></NavMain>
-        <Container>
+        <Container className="py-5">
           <h1>Blog</h1>
           <ReactMarkdown source={markdown} />
         </Container>

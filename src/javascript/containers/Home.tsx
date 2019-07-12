@@ -8,7 +8,7 @@ export class Home extends React.Component<{}, {}> {
     return (
       <div className="page-home">
         <NavMain></NavMain>
-        <Container>
+        <Container className="py-5">
           <h1>Home</h1>
           <CountryGuessGame countrySolution="australia"></CountryGuessGame>
         </Container>

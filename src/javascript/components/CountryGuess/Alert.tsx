@@ -18,7 +18,7 @@ export const CountryGuessAlert: React.FC<AlertProps> = (props: AlertProps) => {
   return (
     <Alert variant={isCorrect ? Status.Success : Status.Fail}>
       {isCorrect ? <h3>Correct!</h3> : <h3>Incorrect</h3>}
-      <p>
+      <p className="mb-0">
         You have made {numGuess} guess{numGuess > 1 && 'es'}
       </p>
     </Alert>

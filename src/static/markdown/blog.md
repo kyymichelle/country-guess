@@ -30,7 +30,7 @@ I had issues importing the markdown file via Typescript, as it had been giving t
 
 #### React Hooks
 
-Initially I had started writing the CountryGuessGame component with the usual class component method, but after reading about [react hooks](https://reactjs.org/docs/hooks-overview.html), I decided to make the switch to a functional component. Being early in the project, the rewrite was very simple - going from:
+Initially I had started writing the CountryGuessGame component with the usual class component method. But after reading about [react hooks](https://reactjs.org/docs/hooks-overview.html) and how you didn't need to use `this` everywhere anymore, I decided to make the switch to writing a functional component. Being early in the project, the rewrite was very simple - going from:
 
 ```
 export class CountryGuessGame extends React.Component<GameProps, GameState> {
@@ -82,3 +82,21 @@ export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
   );
 };
 ```
+
+However that involved removing the GameState interface, so to make things a bit more elegant I refactored the state:
+
+```
+// Before
+const [countryGuess, setCountryGuess] = useState('');
+const [isCorrect, setIsCorrect] = useState(false);
+const [numGuess, setNumGuess] = useState(0);
+
+// After
+const [state, setState] = useState<GameState>({
+  countryGuess: '',
+  isCorrect: false,
+  numGuess: 0,
+});
+```
+
+After a bit of tweaking, my `CountryGuessGame` component now has a form (this may later be moved into its own component) that validates a submitted string against a solution string and then displaying a `CountryGuessAlert` component with feedback.

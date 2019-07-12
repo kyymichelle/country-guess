@@ -7,16 +7,18 @@ interface GameProps {
   countrySolution: string;
 }
 
-// interface GameState {
-//   countryGuess?: string;
-//   isCorrect: boolean;
-//   numGuess: number;
-// }
+interface GameState {
+  countryGuess: string;
+  isCorrect: boolean;
+  numGuess: number;
+}
 
 export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
-  const [countryGuess, setCountryGuess] = useState('');
-  const [isCorrect, setIsCorrect] = useState(false);
-  const [numGuess, setNumGuess] = useState(0);
+  const [state, setState] = useState<GameState>({
+    countryGuess: '',
+    isCorrect: false,
+    numGuess: 0,
+  });
 
   const validateCountryGuess = (guess: string, solution: string): boolean => {
     return guess.toLowerCase() === solution.toLowerCase();
@@ -25,15 +27,24 @@ export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
-    setIsCorrect(validateCountryGuess(countryGuess, props.countrySolution));
-    setNumGuess(numGuess + 1);
+    setState({
+      ...state,
+      isCorrect: validateCountryGuess(state.countryGuess, props.countrySolution),
+      numGuess: state.numGuess + 1,
+    });
   };
 
-  const handleChange = (e: any) => setCountryGuess(e.currentTarget.value);
+  const handleChange = (e: any) =>
+    setState({
+      ...state,
+      countryGuess: e.currentTarget.value,
+    });
 
   return (
     <Form onSubmit={handleSubmit}>
-      {numGuess > 0 && <CountryGuessAlert isCorrect={isCorrect} numGuess={numGuess}></CountryGuessAlert>}
+      {state.numGuess > 0 && (
+        <CountryGuessAlert isCorrect={state.isCorrect} numGuess={state.numGuess}></CountryGuessAlert>
+      )}
       <Form.Group>
         <Form.Label>Country name</Form.Label>
         <Form.Control type="text" placeholder="..." onChange={handleChange} required />
