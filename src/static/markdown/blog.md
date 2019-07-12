@@ -4,7 +4,7 @@ The aim of this project is to make a simple word guessing game utilising this [G
 
 #### Planning
 
-For the guessing game, the application will first grab a list of countries from the API to populate the Redux store. Then the CountryGuessGame component can be passed random countries via its container. The CountryGuessGame component will initially be a fill-in-the-blanks string matching game, but I can later add more features to it like guess based on country flag or adjustable difficulty levels.
+For the guessing game, the application will first grab a list of countries from the API to populate the Redux store. Then the CountryGuessGame component can be passed random countries via its container. The CountryGuessGame component will initially be a fill-in-the-blanks string matching game, but I can later add more features to it like guesses based on country flag, keeping track of previous guesses or adjustable difficulty levels.
 
 #### Typescript & linting
 
@@ -100,3 +100,7 @@ const [state, setState] = useState<GameState>({
 ```
 
 After a bit of tweaking, my `CountryGuessGame` component now has a form (this may later be moved into its own component) that validates a submitted string against a solution string and then displaying a `CountryGuessAlert` component with feedback.
+
+#### Testing
+
+Before moving on to starting to write the Redux store, I wanted to do some tests for the new component.

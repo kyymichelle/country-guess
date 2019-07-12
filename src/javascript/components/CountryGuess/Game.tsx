@@ -1,7 +1,6 @@
 import React, { FormEvent, useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
-
-import { CountryGuessAlert } from './';
+import { FormControlProps } from 'react-bootstrap';
+import { CountryGuessAlert, CountryGuessForm } from './';
 
 interface GameProps {
   countrySolution: string;
@@ -24,8 +23,8 @@ export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
     return guess.toLowerCase() === solution.toLowerCase();
   };
 
-  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
 
     setState({
       ...state,
@@ -34,22 +33,18 @@ export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
     });
   };
 
-  const handleChange = (e: any) =>
+  const handleChange = (e: FormEvent<FormControlProps>) =>
     setState({
       ...state,
-      countryGuess: e.currentTarget.value,
+      countryGuess: e.currentTarget.value || '',
     });
 
   return (
-    <Form onSubmit={handleSubmit}>
+    <div className="country-guess-game">
       {state.numGuess > 0 && (
         <CountryGuessAlert isCorrect={state.isCorrect} numGuess={state.numGuess}></CountryGuessAlert>
       )}
-      <Form.Group>
-        <Form.Label>Country name</Form.Label>
-        <Form.Control type="text" placeholder="..." onChange={handleChange} required />
-      </Form.Group>
-      <Button type="submit">Make your guess</Button>
-    </Form>
+      <CountryGuessForm handleChange={handleChange} handleSubmit={handleSubmit}></CountryGuessForm>
+    </div>
   );
 };

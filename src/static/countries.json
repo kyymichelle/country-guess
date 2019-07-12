@@ -1,0 +1,3977 @@
+{
+  "data": {
+    "countries": [
+      {
+        "code": "AD",
+        "name": "Andorra",
+        "emoji": "🇦🇩",
+        "native": "Andorra",
+        "phone": "376",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "ca",
+            "name": "Catalan"
+          }
+        ]
+      },
+      {
+        "code": "AE",
+        "name": "United Arab Emirates",
+        "emoji": "🇦🇪",
+        "native": "دولة الإمارات العربية المتحدة",
+        "phone": "971",
+        "currency": "AED",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "AF",
+        "name": "Afghanistan",
+        "emoji": "🇦🇫",
+        "native": "افغانستان",
+        "phone": "93",
+        "currency": "AFN",
+        "languages": [
+          {
+            "code": "ps",
+            "name": "Pashto"
+          },
+          {
+            "code": "tk",
+            "name": "Turkmen"
+          },
+          {
+            "code": "uz",
+            "name": "Uzbek"
+          }
+        ]
+      },
+      {
+        "code": "AG",
+        "name": "Antigua and Barbuda",
+        "emoji": "🇦🇬",
+        "native": "Antigua and Barbuda",
+        "phone": "1268",
+        "currency": "XCD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "AI",
+        "name": "Anguilla",
+        "emoji": "🇦🇮",
+        "native": "Anguilla",
+        "phone": "1264",
+        "currency": "XCD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "AL",
+        "name": "Albania",
+        "emoji": "🇦🇱",
+        "native": "Shqipëria",
+        "phone": "355",
+        "currency": "ALL",
+        "languages": [
+          {
+            "code": "sq",
+            "name": "Albanian"
+          }
+        ]
+      },
+      {
+        "code": "AM",
+        "name": "Armenia",
+        "emoji": "🇦🇲",
+        "native": "Հայաստան",
+        "phone": "374",
+        "currency": "AMD",
+        "languages": [
+          {
+            "code": "hy",
+            "name": "Armenian"
+          },
+          {
+            "code": "ru",
+            "name": "Russian"
+          }
+        ]
+      },
+      {
+        "code": "AO",
+        "name": "Angola",
+        "emoji": "🇦🇴",
+        "native": "Angola",
+        "phone": "244",
+        "currency": "AOA",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          }
+        ]
+      },
+      {
+        "code": "AQ",
+        "name": "Antarctica",
+        "emoji": "🇦🇶",
+        "native": "Antarctica",
+        "phone": "672",
+        "currency": "",
+        "languages": []
+      },
+      {
+        "code": "AR",
+        "name": "Argentina",
+        "emoji": "🇦🇷",
+        "native": "Argentina",
+        "phone": "54",
+        "currency": "ARS",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          },
+          {
+            "code": "gn",
+            "name": "Guarani"
+          }
+        ]
+      },
+      {
+        "code": "AS",
+        "name": "American Samoa",
+        "emoji": "🇦🇸",
+        "native": "American Samoa",
+        "phone": "1684",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "sm",
+            "name": "Samoan"
+          }
+        ]
+      },
+      {
+        "code": "AT",
+        "name": "Austria",
+        "emoji": "🇦🇹",
+        "native": "Österreich",
+        "phone": "43",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "de",
+            "name": "German"
+          }
+        ]
+      },
+      {
+        "code": "AU",
+        "name": "Australia",
+        "emoji": "🇦🇺",
+        "native": "Australia",
+        "phone": "61",
+        "currency": "AUD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "AW",
+        "name": "Aruba",
+        "emoji": "🇦🇼",
+        "native": "Aruba",
+        "phone": "297",
+        "currency": "AWG",
+        "languages": [
+          {
+            "code": "nl",
+            "name": "Dutch"
+          },
+          {
+            "code": "pa",
+            "name": "Panjabi / Punjabi"
+          }
+        ]
+      },
+      {
+        "code": "AX",
+        "name": "Åland",
+        "emoji": "🇦🇽",
+        "native": "Åland",
+        "phone": "358",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "sv",
+            "name": "Swedish"
+          }
+        ]
+      },
+      {
+        "code": "AZ",
+        "name": "Azerbaijan",
+        "emoji": "🇦🇿",
+        "native": "Azərbaycan",
+        "phone": "994",
+        "currency": "AZN",
+        "languages": [
+          {
+            "code": "az",
+            "name": "Azerbaijani"
+          }
+        ]
+      },
+      {
+        "code": "BA",
+        "name": "Bosnia and Herzegovina",
+        "emoji": "🇧🇦",
+        "native": "Bosna i Hercegovina",
+        "phone": "387",
+        "currency": "BAM",
+        "languages": [
+          {
+            "code": "bs",
+            "name": "Bosnian"
+          },
+          {
+            "code": "hr",
+            "name": "Croatian"
+          },
+          {
+            "code": "sr",
+            "name": "Serbian"
+          }
+        ]
+      },
+      {
+        "code": "BB",
+        "name": "Barbados",
+        "emoji": "🇧🇧",
+        "native": "Barbados",
+        "phone": "1246",
+        "currency": "BBD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "BD",
+        "name": "Bangladesh",
+        "emoji": "🇧🇩",
+        "native": "Bangladesh",
+        "phone": "880",
+        "currency": "BDT",
+        "languages": [
+          {
+            "code": "bn",
+            "name": "Bengali"
+          }
+        ]
+      },
+      {
+        "code": "BE",
+        "name": "Belgium",
+        "emoji": "🇧🇪",
+        "native": "België",
+        "phone": "32",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "de",
+            "name": "German"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "nl",
+            "name": "Dutch"
+          }
+        ]
+      },
+      {
+        "code": "BF",
+        "name": "Burkina Faso",
+        "emoji": "🇧🇫",
+        "native": "Burkina Faso",
+        "phone": "226",
+        "currency": "XOF",
+        "languages": [
+          {
+            "code": "ff",
+            "name": "Peul"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "BG",
+        "name": "Bulgaria",
+        "emoji": "🇧🇬",
+        "native": "България",
+        "phone": "359",
+        "currency": "BGN",
+        "languages": [
+          {
+            "code": "bg",
+            "name": "Bulgarian"
+          }
+        ]
+      },
+      {
+        "code": "BH",
+        "name": "Bahrain",
+        "emoji": "🇧🇭",
+        "native": "‏البحرين",
+        "phone": "973",
+        "currency": "BHD",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "BI",
+        "name": "Burundi",
+        "emoji": "🇧🇮",
+        "native": "Burundi",
+        "phone": "257",
+        "currency": "BIF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "rn",
+            "name": "Kirundi"
+          }
+        ]
+      },
+      {
+        "code": "BJ",
+        "name": "Benin",
+        "emoji": "🇧🇯",
+        "native": "Bénin",
+        "phone": "229",
+        "currency": "XOF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "BL",
+        "name": "Saint Barthélemy",
+        "emoji": "🇧🇱",
+        "native": "Saint-Barthélemy",
+        "phone": "590",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "BM",
+        "name": "Bermuda",
+        "emoji": "🇧🇲",
+        "native": "Bermuda",
+        "phone": "1441",
+        "currency": "BMD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "BN",
+        "name": "Brunei",
+        "emoji": "🇧🇳",
+        "native": "Negara Brunei Darussalam",
+        "phone": "673",
+        "currency": "BND",
+        "languages": [
+          {
+            "code": "ms",
+            "name": "Malay"
+          }
+        ]
+      },
+      {
+        "code": "BO",
+        "name": "Bolivia",
+        "emoji": "🇧🇴",
+        "native": "Bolivia",
+        "phone": "591",
+        "currency": "BOB,BOV",
+        "languages": [
+          {
+            "code": "ay",
+            "name": "Aymara"
+          },
+          {
+            "code": "es",
+            "name": "Spanish"
+          },
+          {
+            "code": "qu",
+            "name": "Quechua"
+          }
+        ]
+      },
+      {
+        "code": "BQ",
+        "name": "Bonaire",
+        "emoji": "🇧🇶",
+        "native": "Bonaire",
+        "phone": "5997",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "nl",
+            "name": "Dutch"
+          }
+        ]
+      },
+      {
+        "code": "BR",
+        "name": "Brazil",
+        "emoji": "🇧🇷",
+        "native": "Brasil",
+        "phone": "55",
+        "currency": "BRL",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          }
+        ]
+      },
+      {
+        "code": "BS",
+        "name": "Bahamas",
+        "emoji": "🇧🇸",
+        "native": "Bahamas",
+        "phone": "1242",
+        "currency": "BSD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "BT",
+        "name": "Bhutan",
+        "emoji": "🇧🇹",
+        "native": "ʼbrug-yul",
+        "phone": "975",
+        "currency": "BTN,INR",
+        "languages": [
+          {
+            "code": "dz",
+            "name": "Dzongkha"
+          }
+        ]
+      },
+      {
+        "code": "BV",
+        "name": "Bouvet Island",
+        "emoji": "🇧🇻",
+        "native": "Bouvetøya",
+        "phone": "47",
+        "currency": "NOK",
+        "languages": [
+          {
+            "code": "nb",
+            "name": null
+          },
+          {
+            "code": "nn",
+            "name": "Norwegian Nynorsk"
+          },
+          {
+            "code": "no",
+            "name": "Norwegian"
+          }
+        ]
+      },
+      {
+        "code": "BW",
+        "name": "Botswana",
+        "emoji": "🇧🇼",
+        "native": "Botswana",
+        "phone": "267",
+        "currency": "BWP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "tn",
+            "name": "Tswana"
+          }
+        ]
+      },
+      {
+        "code": "BY",
+        "name": "Belarus",
+        "emoji": "🇧🇾",
+        "native": "Белару́сь",
+        "phone": "375",
+        "currency": "BYR",
+        "languages": [
+          {
+            "code": "be",
+            "name": "Belarusian"
+          },
+          {
+            "code": "ru",
+            "name": "Russian"
+          }
+        ]
+      },
+      {
+        "code": "BZ",
+        "name": "Belize",
+        "emoji": "🇧🇿",
+        "native": "Belize",
+        "phone": "501",
+        "currency": "BZD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "CA",
+        "name": "Canada",
+        "emoji": "🇨🇦",
+        "native": "Canada",
+        "phone": "1",
+        "currency": "CAD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "CC",
+        "name": "Cocos [Keeling] Islands",
+        "emoji": "🇨🇨",
+        "native": "Cocos (Keeling) Islands",
+        "phone": "61",
+        "currency": "AUD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "CD",
+        "name": "Democratic Republic of the Congo",
+        "emoji": "🇨🇩",
+        "native": "République démocratique du Congo",
+        "phone": "243",
+        "currency": "CDF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "kg",
+            "name": "Kongo"
+          },
+          {
+            "code": "ln",
+            "name": "Lingala"
+          },
+          {
+            "code": "lu",
+            "name": null
+          },
+          {
+            "code": "sw",
+            "name": "Swahili"
+          }
+        ]
+      },
+      {
+        "code": "CF",
+        "name": "Central African Republic",
+        "emoji": "🇨🇫",
+        "native": "Ködörösêse tî Bêafrîka",
+        "phone": "236",
+        "currency": "XAF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "sg",
+            "name": "Sango"
+          }
+        ]
+      },
+      {
+        "code": "CG",
+        "name": "Republic of the Congo",
+        "emoji": "🇨🇬",
+        "native": "République du Congo",
+        "phone": "242",
+        "currency": "XAF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "ln",
+            "name": "Lingala"
+          }
+        ]
+      },
+      {
+        "code": "CH",
+        "name": "Switzerland",
+        "emoji": "🇨🇭",
+        "native": "Schweiz",
+        "phone": "41",
+        "currency": "CHE,CHF,CHW",
+        "languages": [
+          {
+            "code": "de",
+            "name": "German"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "it",
+            "name": "Italian"
+          }
+        ]
+      },
+      {
+        "code": "CI",
+        "name": "Ivory Coast",
+        "emoji": "🇨🇮",
+        "native": "Côte d'Ivoire",
+        "phone": "225",
+        "currency": "XOF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "CK",
+        "name": "Cook Islands",
+        "emoji": "🇨🇰",
+        "native": "Cook Islands",
+        "phone": "682",
+        "currency": "NZD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "CL",
+        "name": "Chile",
+        "emoji": "🇨🇱",
+        "native": "Chile",
+        "phone": "56",
+        "currency": "CLF,CLP",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "CM",
+        "name": "Cameroon",
+        "emoji": "🇨🇲",
+        "native": "Cameroon",
+        "phone": "237",
+        "currency": "XAF",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "CN",
+        "name": "China",
+        "emoji": "🇨🇳",
+        "native": "中国",
+        "phone": "86",
+        "currency": "CNY",
+        "languages": [
+          {
+            "code": "zh",
+            "name": "Chinese"
+          }
+        ]
+      },
+      {
+        "code": "CO",
+        "name": "Colombia",
+        "emoji": "🇨🇴",
+        "native": "Colombia",
+        "phone": "57",
+        "currency": "COP",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "CR",
+        "name": "Costa Rica",
+        "emoji": "🇨🇷",
+        "native": "Costa Rica",
+        "phone": "506",
+        "currency": "CRC",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "CU",
+        "name": "Cuba",
+        "emoji": "🇨🇺",
+        "native": "Cuba",
+        "phone": "53",
+        "currency": "CUC,CUP",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "CV",
+        "name": "Cape Verde",
+        "emoji": "🇨🇻",
+        "native": "Cabo Verde",
+        "phone": "238",
+        "currency": "CVE",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          }
+        ]
+      },
+      {
+        "code": "CW",
+        "name": "Curacao",
+        "emoji": "🇨🇼",
+        "native": "Curaçao",
+        "phone": "5999",
+        "currency": "ANG",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "nl",
+            "name": "Dutch"
+          },
+          {
+            "code": "pa",
+            "name": "Panjabi / Punjabi"
+          }
+        ]
+      },
+      {
+        "code": "CX",
+        "name": "Christmas Island",
+        "emoji": "🇨🇽",
+        "native": "Christmas Island",
+        "phone": "61",
+        "currency": "AUD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "CY",
+        "name": "Cyprus",
+        "emoji": "🇨🇾",
+        "native": "Κύπρος",
+        "phone": "357",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "el",
+            "name": "Greek"
+          },
+          {
+            "code": "hy",
+            "name": "Armenian"
+          },
+          {
+            "code": "tr",
+            "name": "Turkish"
+          }
+        ]
+      },
+      {
+        "code": "CZ",
+        "name": "Czech Republic",
+        "emoji": "🇨🇿",
+        "native": "Česká republika",
+        "phone": "420",
+        "currency": "CZK",
+        "languages": [
+          {
+            "code": "cs",
+            "name": "Czech"
+          },
+          {
+            "code": "sk",
+            "name": "Slovak"
+          }
+        ]
+      },
+      {
+        "code": "DE",
+        "name": "Germany",
+        "emoji": "🇩🇪",
+        "native": "Deutschland",
+        "phone": "49",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "de",
+            "name": "German"
+          }
+        ]
+      },
+      {
+        "code": "DJ",
+        "name": "Djibouti",
+        "emoji": "🇩🇯",
+        "native": "Djibouti",
+        "phone": "253",
+        "currency": "DJF",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "DK",
+        "name": "Denmark",
+        "emoji": "🇩🇰",
+        "native": "Danmark",
+        "phone": "45",
+        "currency": "DKK",
+        "languages": [
+          {
+            "code": "da",
+            "name": "Danish"
+          }
+        ]
+      },
+      {
+        "code": "DM",
+        "name": "Dominica",
+        "emoji": "🇩🇲",
+        "native": "Dominica",
+        "phone": "1767",
+        "currency": "XCD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "DO",
+        "name": "Dominican Republic",
+        "emoji": "🇩🇴",
+        "native": "República Dominicana",
+        "phone": "1809,1829,1849",
+        "currency": "DOP",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "DZ",
+        "name": "Algeria",
+        "emoji": "🇩🇿",
+        "native": "الجزائر",
+        "phone": "213",
+        "currency": "DZD",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "EC",
+        "name": "Ecuador",
+        "emoji": "🇪🇨",
+        "native": "Ecuador",
+        "phone": "593",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "EE",
+        "name": "Estonia",
+        "emoji": "🇪🇪",
+        "native": "Eesti",
+        "phone": "372",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "et",
+            "name": "Estonian"
+          }
+        ]
+      },
+      {
+        "code": "EG",
+        "name": "Egypt",
+        "emoji": "🇪🇬",
+        "native": "مصر‎",
+        "phone": "20",
+        "currency": "EGP",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "EH",
+        "name": "Western Sahara",
+        "emoji": "🇪🇭",
+        "native": "الصحراء الغربية",
+        "phone": "212",
+        "currency": "MAD,DZD,MRO",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "ER",
+        "name": "Eritrea",
+        "emoji": "🇪🇷",
+        "native": "ኤርትራ",
+        "phone": "291",
+        "currency": "ERN",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "ti",
+            "name": "Tigrinya"
+          }
+        ]
+      },
+      {
+        "code": "ES",
+        "name": "Spain",
+        "emoji": "🇪🇸",
+        "native": "España",
+        "phone": "34",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "ca",
+            "name": "Catalan"
+          },
+          {
+            "code": "es",
+            "name": "Spanish"
+          },
+          {
+            "code": "eu",
+            "name": "Basque"
+          },
+          {
+            "code": "gl",
+            "name": "Galician"
+          },
+          {
+            "code": "oc",
+            "name": "Occitan"
+          }
+        ]
+      },
+      {
+        "code": "ET",
+        "name": "Ethiopia",
+        "emoji": "🇪🇹",
+        "native": "ኢትዮጵያ",
+        "phone": "251",
+        "currency": "ETB",
+        "languages": [
+          {
+            "code": "am",
+            "name": "Amharic"
+          }
+        ]
+      },
+      {
+        "code": "FI",
+        "name": "Finland",
+        "emoji": "🇫🇮",
+        "native": "Suomi",
+        "phone": "358",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fi",
+            "name": "Finnish"
+          },
+          {
+            "code": "sv",
+            "name": "Swedish"
+          }
+        ]
+      },
+      {
+        "code": "FJ",
+        "name": "Fiji",
+        "emoji": "🇫🇯",
+        "native": "Fiji",
+        "phone": "679",
+        "currency": "FJD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fj",
+            "name": "Fijian"
+          },
+          {
+            "code": "hi",
+            "name": "Hindi"
+          },
+          {
+            "code": "ur",
+            "name": "Urdu"
+          }
+        ]
+      },
+      {
+        "code": "FK",
+        "name": "Falkland Islands",
+        "emoji": "🇫🇰",
+        "native": "Falkland Islands",
+        "phone": "500",
+        "currency": "FKP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "FM",
+        "name": "Micronesia",
+        "emoji": "🇫🇲",
+        "native": "Micronesia",
+        "phone": "691",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "FO",
+        "name": "Faroe Islands",
+        "emoji": "🇫🇴",
+        "native": "Føroyar",
+        "phone": "298",
+        "currency": "DKK",
+        "languages": [
+          {
+            "code": "fo",
+            "name": "Faroese"
+          }
+        ]
+      },
+      {
+        "code": "FR",
+        "name": "France",
+        "emoji": "🇫🇷",
+        "native": "France",
+        "phone": "33",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "GA",
+        "name": "Gabon",
+        "emoji": "🇬🇦",
+        "native": "Gabon",
+        "phone": "241",
+        "currency": "XAF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "GB",
+        "name": "United Kingdom",
+        "emoji": "🇬🇧",
+        "native": "United Kingdom",
+        "phone": "44",
+        "currency": "GBP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "GD",
+        "name": "Grenada",
+        "emoji": "🇬🇩",
+        "native": "Grenada",
+        "phone": "1473",
+        "currency": "XCD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "GE",
+        "name": "Georgia",
+        "emoji": "🇬🇪",
+        "native": "საქართველო",
+        "phone": "995",
+        "currency": "GEL",
+        "languages": [
+          {
+            "code": "ka",
+            "name": "Georgian"
+          }
+        ]
+      },
+      {
+        "code": "GF",
+        "name": "French Guiana",
+        "emoji": "🇬🇫",
+        "native": "Guyane française",
+        "phone": "594",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "GG",
+        "name": "Guernsey",
+        "emoji": "🇬🇬",
+        "native": "Guernsey",
+        "phone": "44",
+        "currency": "GBP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "GH",
+        "name": "Ghana",
+        "emoji": "🇬🇭",
+        "native": "Ghana",
+        "phone": "233",
+        "currency": "GHS",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "GI",
+        "name": "Gibraltar",
+        "emoji": "🇬🇮",
+        "native": "Gibraltar",
+        "phone": "350",
+        "currency": "GIP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "GL",
+        "name": "Greenland",
+        "emoji": "🇬🇱",
+        "native": "Kalaallit Nunaat",
+        "phone": "299",
+        "currency": "DKK",
+        "languages": [
+          {
+            "code": "kl",
+            "name": "Greenlandic"
+          }
+        ]
+      },
+      {
+        "code": "GM",
+        "name": "Gambia",
+        "emoji": "🇬🇲",
+        "native": "Gambia",
+        "phone": "220",
+        "currency": "GMD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "GN",
+        "name": "Guinea",
+        "emoji": "🇬🇳",
+        "native": "Guinée",
+        "phone": "224",
+        "currency": "GNF",
+        "languages": [
+          {
+            "code": "ff",
+            "name": "Peul"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "GP",
+        "name": "Guadeloupe",
+        "emoji": "🇬🇵",
+        "native": "Guadeloupe",
+        "phone": "590",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "GQ",
+        "name": "Equatorial Guinea",
+        "emoji": "🇬🇶",
+        "native": "Guinea Ecuatorial",
+        "phone": "240",
+        "currency": "XAF",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "GR",
+        "name": "Greece",
+        "emoji": "🇬🇷",
+        "native": "Ελλάδα",
+        "phone": "30",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "el",
+            "name": "Greek"
+          }
+        ]
+      },
+      {
+        "code": "GS",
+        "name": "South Georgia and the South Sandwich Islands",
+        "emoji": "🇬🇸",
+        "native": "South Georgia",
+        "phone": "500",
+        "currency": "GBP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "GT",
+        "name": "Guatemala",
+        "emoji": "🇬🇹",
+        "native": "Guatemala",
+        "phone": "502",
+        "currency": "GTQ",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "GU",
+        "name": "Guam",
+        "emoji": "🇬🇺",
+        "native": "Guam",
+        "phone": "1671",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "ch",
+            "name": "Chamorro"
+          },
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "GW",
+        "name": "Guinea-Bissau",
+        "emoji": "🇬🇼",
+        "native": "Guiné-Bissau",
+        "phone": "245",
+        "currency": "XOF",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          }
+        ]
+      },
+      {
+        "code": "GY",
+        "name": "Guyana",
+        "emoji": "🇬🇾",
+        "native": "Guyana",
+        "phone": "592",
+        "currency": "GYD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "HK",
+        "name": "Hong Kong",
+        "emoji": "🇭🇰",
+        "native": "香港",
+        "phone": "852",
+        "currency": "HKD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "zh",
+            "name": "Chinese"
+          }
+        ]
+      },
+      {
+        "code": "HM",
+        "name": "Heard Island and McDonald Islands",
+        "emoji": "🇭🇲",
+        "native": "Heard Island and McDonald Islands",
+        "phone": "61",
+        "currency": "AUD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "HN",
+        "name": "Honduras",
+        "emoji": "🇭🇳",
+        "native": "Honduras",
+        "phone": "504",
+        "currency": "HNL",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "HR",
+        "name": "Croatia",
+        "emoji": "🇭🇷",
+        "native": "Hrvatska",
+        "phone": "385",
+        "currency": "HRK",
+        "languages": [
+          {
+            "code": "hr",
+            "name": "Croatian"
+          }
+        ]
+      },
+      {
+        "code": "HT",
+        "name": "Haiti",
+        "emoji": "🇭🇹",
+        "native": "Haïti",
+        "phone": "509",
+        "currency": "HTG,USD",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "ht",
+            "name": "Haitian"
+          }
+        ]
+      },
+      {
+        "code": "HU",
+        "name": "Hungary",
+        "emoji": "🇭🇺",
+        "native": "Magyarország",
+        "phone": "36",
+        "currency": "HUF",
+        "languages": [
+          {
+            "code": "hu",
+            "name": "Hungarian"
+          }
+        ]
+      },
+      {
+        "code": "ID",
+        "name": "Indonesia",
+        "emoji": "🇮🇩",
+        "native": "Indonesia",
+        "phone": "62",
+        "currency": "IDR",
+        "languages": [
+          {
+            "code": "id",
+            "name": "Indonesian"
+          }
+        ]
+      },
+      {
+        "code": "IE",
+        "name": "Ireland",
+        "emoji": "🇮🇪",
+        "native": "Éire",
+        "phone": "353",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "ga",
+            "name": "Irish"
+          }
+        ]
+      },
+      {
+        "code": "IL",
+        "name": "Israel",
+        "emoji": "🇮🇱",
+        "native": "יִשְׂרָאֵל",
+        "phone": "972",
+        "currency": "ILS",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "he",
+            "name": "Hebrew"
+          }
+        ]
+      },
+      {
+        "code": "IM",
+        "name": "Isle of Man",
+        "emoji": "🇮🇲",
+        "native": "Isle of Man",
+        "phone": "44",
+        "currency": "GBP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "gv",
+            "name": "Manx"
+          }
+        ]
+      },
+      {
+        "code": "IN",
+        "name": "India",
+        "emoji": "🇮🇳",
+        "native": "भारत",
+        "phone": "91",
+        "currency": "INR",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "hi",
+            "name": "Hindi"
+          }
+        ]
+      },
+      {
+        "code": "IO",
+        "name": "British Indian Ocean Territory",
+        "emoji": "🇮🇴",
+        "native": "British Indian Ocean Territory",
+        "phone": "246",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "IQ",
+        "name": "Iraq",
+        "emoji": "🇮🇶",
+        "native": "العراق",
+        "phone": "964",
+        "currency": "IQD",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "ku",
+            "name": "Kurdish"
+          }
+        ]
+      },
+      {
+        "code": "IR",
+        "name": "Iran",
+        "emoji": "🇮🇷",
+        "native": "ایران",
+        "phone": "98",
+        "currency": "IRR",
+        "languages": [
+          {
+            "code": "fa",
+            "name": "Persian"
+          }
+        ]
+      },
+      {
+        "code": "IS",
+        "name": "Iceland",
+        "emoji": "🇮🇸",
+        "native": "Ísland",
+        "phone": "354",
+        "currency": "ISK",
+        "languages": [
+          {
+            "code": "is",
+            "name": "Icelandic"
+          }
+        ]
+      },
+      {
+        "code": "IT",
+        "name": "Italy",
+        "emoji": "🇮🇹",
+        "native": "Italia",
+        "phone": "39",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "it",
+            "name": "Italian"
+          }
+        ]
+      },
+      {
+        "code": "JE",
+        "name": "Jersey",
+        "emoji": "🇯🇪",
+        "native": "Jersey",
+        "phone": "44",
+        "currency": "GBP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "JM",
+        "name": "Jamaica",
+        "emoji": "🇯🇲",
+        "native": "Jamaica",
+        "phone": "1876",
+        "currency": "JMD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "JO",
+        "name": "Jordan",
+        "emoji": "🇯🇴",
+        "native": "الأردن",
+        "phone": "962",
+        "currency": "JOD",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "JP",
+        "name": "Japan",
+        "emoji": "🇯🇵",
+        "native": "日本",
+        "phone": "81",
+        "currency": "JPY",
+        "languages": [
+          {
+            "code": "ja",
+            "name": "Japanese"
+          }
+        ]
+      },
+      {
+        "code": "KE",
+        "name": "Kenya",
+        "emoji": "🇰🇪",
+        "native": "Kenya",
+        "phone": "254",
+        "currency": "KES",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "sw",
+            "name": "Swahili"
+          }
+        ]
+      },
+      {
+        "code": "KG",
+        "name": "Kyrgyzstan",
+        "emoji": "🇰🇬",
+        "native": "Кыргызстан",
+        "phone": "996",
+        "currency": "KGS",
+        "languages": [
+          {
+            "code": "ky",
+            "name": "Kirghiz"
+          },
+          {
+            "code": "ru",
+            "name": "Russian"
+          }
+        ]
+      },
+      {
+        "code": "KH",
+        "name": "Cambodia",
+        "emoji": "🇰🇭",
+        "native": "Kâmpŭchéa",
+        "phone": "855",
+        "currency": "KHR",
+        "languages": [
+          {
+            "code": "km",
+            "name": "Cambodian"
+          }
+        ]
+      },
+      {
+        "code": "KI",
+        "name": "Kiribati",
+        "emoji": "🇰🇮",
+        "native": "Kiribati",
+        "phone": "686",
+        "currency": "AUD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "KM",
+        "name": "Comoros",
+        "emoji": "🇰🇲",
+        "native": "Komori",
+        "phone": "269",
+        "currency": "KMF",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "KN",
+        "name": "Saint Kitts and Nevis",
+        "emoji": "🇰🇳",
+        "native": "Saint Kitts and Nevis",
+        "phone": "1869",
+        "currency": "XCD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "KP",
+        "name": "North Korea",
+        "emoji": "🇰🇵",
+        "native": "북한",
+        "phone": "850",
+        "currency": "KPW",
+        "languages": [
+          {
+            "code": "ko",
+            "name": "Korean"
+          }
+        ]
+      },
+      {
+        "code": "KR",
+        "name": "South Korea",
+        "emoji": "🇰🇷",
+        "native": "대한민국",
+        "phone": "82",
+        "currency": "KRW",
+        "languages": [
+          {
+            "code": "ko",
+            "name": "Korean"
+          }
+        ]
+      },
+      {
+        "code": "KW",
+        "name": "Kuwait",
+        "emoji": "🇰🇼",
+        "native": "الكويت",
+        "phone": "965",
+        "currency": "KWD",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "KY",
+        "name": "Cayman Islands",
+        "emoji": "🇰🇾",
+        "native": "Cayman Islands",
+        "phone": "1345",
+        "currency": "KYD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "KZ",
+        "name": "Kazakhstan",
+        "emoji": "🇰🇿",
+        "native": "Қазақстан",
+        "phone": "76,77",
+        "currency": "KZT",
+        "languages": [
+          {
+            "code": "kk",
+            "name": "Kazakh"
+          },
+          {
+            "code": "ru",
+            "name": "Russian"
+          }
+        ]
+      },
+      {
+        "code": "LA",
+        "name": "Laos",
+        "emoji": "🇱🇦",
+        "native": "ສປປລາວ",
+        "phone": "856",
+        "currency": "LAK",
+        "languages": [
+          {
+            "code": "lo",
+            "name": "Laotian"
+          }
+        ]
+      },
+      {
+        "code": "LB",
+        "name": "Lebanon",
+        "emoji": "🇱🇧",
+        "native": "لبنان",
+        "phone": "961",
+        "currency": "LBP",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "LC",
+        "name": "Saint Lucia",
+        "emoji": "🇱🇨",
+        "native": "Saint Lucia",
+        "phone": "1758",
+        "currency": "XCD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "LI",
+        "name": "Liechtenstein",
+        "emoji": "🇱🇮",
+        "native": "Liechtenstein",
+        "phone": "423",
+        "currency": "CHF",
+        "languages": [
+          {
+            "code": "de",
+            "name": "German"
+          }
+        ]
+      },
+      {
+        "code": "LK",
+        "name": "Sri Lanka",
+        "emoji": "🇱🇰",
+        "native": "śrī laṃkāva",
+        "phone": "94",
+        "currency": "LKR",
+        "languages": [
+          {
+            "code": "si",
+            "name": "Sinhalese"
+          },
+          {
+            "code": "ta",
+            "name": "Tamil"
+          }
+        ]
+      },
+      {
+        "code": "LR",
+        "name": "Liberia",
+        "emoji": "🇱🇷",
+        "native": "Liberia",
+        "phone": "231",
+        "currency": "LRD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "LS",
+        "name": "Lesotho",
+        "emoji": "🇱🇸",
+        "native": "Lesotho",
+        "phone": "266",
+        "currency": "LSL,ZAR",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "st",
+            "name": "Southern Sotho"
+          }
+        ]
+      },
+      {
+        "code": "LT",
+        "name": "Lithuania",
+        "emoji": "🇱🇹",
+        "native": "Lietuva",
+        "phone": "370",
+        "currency": "LTL",
+        "languages": [
+          {
+            "code": "lt",
+            "name": "Lithuanian"
+          }
+        ]
+      },
+      {
+        "code": "LU",
+        "name": "Luxembourg",
+        "emoji": "🇱🇺",
+        "native": "Luxembourg",
+        "phone": "352",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "de",
+            "name": "German"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "lb",
+            "name": "Luxembourgish"
+          }
+        ]
+      },
+      {
+        "code": "LV",
+        "name": "Latvia",
+        "emoji": "🇱🇻",
+        "native": "Latvija",
+        "phone": "371",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "lv",
+            "name": "Latvian"
+          }
+        ]
+      },
+      {
+        "code": "LY",
+        "name": "Libya",
+        "emoji": "🇱🇾",
+        "native": "‏ليبيا",
+        "phone": "218",
+        "currency": "LYD",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "MA",
+        "name": "Morocco",
+        "emoji": "🇲🇦",
+        "native": "المغرب",
+        "phone": "212",
+        "currency": "MAD",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "MC",
+        "name": "Monaco",
+        "emoji": "🇲🇨",
+        "native": "Monaco",
+        "phone": "377",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "MD",
+        "name": "Moldova",
+        "emoji": "🇲🇩",
+        "native": "Moldova",
+        "phone": "373",
+        "currency": "MDL",
+        "languages": [
+          {
+            "code": "ro",
+            "name": "Romanian"
+          }
+        ]
+      },
+      {
+        "code": "ME",
+        "name": "Montenegro",
+        "emoji": "🇲🇪",
+        "native": "Црна Гора",
+        "phone": "382",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "bs",
+            "name": "Bosnian"
+          },
+          {
+            "code": "hr",
+            "name": "Croatian"
+          },
+          {
+            "code": "sq",
+            "name": "Albanian"
+          },
+          {
+            "code": "sr",
+            "name": "Serbian"
+          }
+        ]
+      },
+      {
+        "code": "MF",
+        "name": "Saint Martin",
+        "emoji": "🇲🇫",
+        "native": "Saint-Martin",
+        "phone": "590",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "nl",
+            "name": "Dutch"
+          }
+        ]
+      },
+      {
+        "code": "MG",
+        "name": "Madagascar",
+        "emoji": "🇲🇬",
+        "native": "Madagasikara",
+        "phone": "261",
+        "currency": "MGA",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "mg",
+            "name": "Malagasy"
+          }
+        ]
+      },
+      {
+        "code": "MH",
+        "name": "Marshall Islands",
+        "emoji": "🇲🇭",
+        "native": "M̧ajeļ",
+        "phone": "692",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "mh",
+            "name": "Marshallese"
+          }
+        ]
+      },
+      {
+        "code": "MK",
+        "name": "Macedonia",
+        "emoji": "🇲🇰",
+        "native": "Македонија",
+        "phone": "389",
+        "currency": "MKD",
+        "languages": [
+          {
+            "code": "mk",
+            "name": "Macedonian"
+          }
+        ]
+      },
+      {
+        "code": "ML",
+        "name": "Mali",
+        "emoji": "🇲🇱",
+        "native": "Mali",
+        "phone": "223",
+        "currency": "XOF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "MM",
+        "name": "Myanmar [Burma]",
+        "emoji": "🇲🇲",
+        "native": "Myanma",
+        "phone": "95",
+        "currency": "MMK",
+        "languages": [
+          {
+            "code": "my",
+            "name": "Burmese"
+          }
+        ]
+      },
+      {
+        "code": "MN",
+        "name": "Mongolia",
+        "emoji": "🇲🇳",
+        "native": "Монгол улс",
+        "phone": "976",
+        "currency": "MNT",
+        "languages": [
+          {
+            "code": "mn",
+            "name": "Mongolian"
+          }
+        ]
+      },
+      {
+        "code": "MO",
+        "name": "Macao",
+        "emoji": "🇲🇴",
+        "native": "澳門",
+        "phone": "853",
+        "currency": "MOP",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          },
+          {
+            "code": "zh",
+            "name": "Chinese"
+          }
+        ]
+      },
+      {
+        "code": "MP",
+        "name": "Northern Mariana Islands",
+        "emoji": "🇲🇵",
+        "native": "Northern Mariana Islands",
+        "phone": "1670",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "ch",
+            "name": "Chamorro"
+          },
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "MQ",
+        "name": "Martinique",
+        "emoji": "🇲🇶",
+        "native": "Martinique",
+        "phone": "596",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "MR",
+        "name": "Mauritania",
+        "emoji": "🇲🇷",
+        "native": "موريتانيا",
+        "phone": "222",
+        "currency": "MRO",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "MS",
+        "name": "Montserrat",
+        "emoji": "🇲🇸",
+        "native": "Montserrat",
+        "phone": "1664",
+        "currency": "XCD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "MT",
+        "name": "Malta",
+        "emoji": "🇲🇹",
+        "native": "Malta",
+        "phone": "356",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "mt",
+            "name": "Maltese"
+          }
+        ]
+      },
+      {
+        "code": "MU",
+        "name": "Mauritius",
+        "emoji": "🇲🇺",
+        "native": "Maurice",
+        "phone": "230",
+        "currency": "MUR",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "MV",
+        "name": "Maldives",
+        "emoji": "🇲🇻",
+        "native": "Maldives",
+        "phone": "960",
+        "currency": "MVR",
+        "languages": [
+          {
+            "code": "dv",
+            "name": "Divehi"
+          }
+        ]
+      },
+      {
+        "code": "MW",
+        "name": "Malawi",
+        "emoji": "🇲🇼",
+        "native": "Malawi",
+        "phone": "265",
+        "currency": "MWK",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "ny",
+            "name": "Chichewa"
+          }
+        ]
+      },
+      {
+        "code": "MX",
+        "name": "Mexico",
+        "emoji": "🇲🇽",
+        "native": "México",
+        "phone": "52",
+        "currency": "MXN",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "MY",
+        "name": "Malaysia",
+        "emoji": "🇲🇾",
+        "native": "Malaysia",
+        "phone": "60",
+        "currency": "MYR",
+        "languages": [
+          {
+            "code": "ms",
+            "name": "Malay"
+          }
+        ]
+      },
+      {
+        "code": "MZ",
+        "name": "Mozambique",
+        "emoji": "🇲🇿",
+        "native": "Moçambique",
+        "phone": "258",
+        "currency": "MZN",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          }
+        ]
+      },
+      {
+        "code": "NA",
+        "name": "Namibia",
+        "emoji": "🇳🇦",
+        "native": "Namibia",
+        "phone": "264",
+        "currency": "NAD,ZAR",
+        "languages": [
+          {
+            "code": "af",
+            "name": "Afrikaans"
+          },
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "NC",
+        "name": "New Caledonia",
+        "emoji": "🇳🇨",
+        "native": "Nouvelle-Calédonie",
+        "phone": "687",
+        "currency": "XPF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "NE",
+        "name": "Niger",
+        "emoji": "🇳🇪",
+        "native": "Niger",
+        "phone": "227",
+        "currency": "XOF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "NF",
+        "name": "Norfolk Island",
+        "emoji": "🇳🇫",
+        "native": "Norfolk Island",
+        "phone": "672",
+        "currency": "AUD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "NG",
+        "name": "Nigeria",
+        "emoji": "🇳🇬",
+        "native": "Nigeria",
+        "phone": "234",
+        "currency": "NGN",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "NI",
+        "name": "Nicaragua",
+        "emoji": "🇳🇮",
+        "native": "Nicaragua",
+        "phone": "505",
+        "currency": "NIO",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "NL",
+        "name": "Netherlands",
+        "emoji": "🇳🇱",
+        "native": "Nederland",
+        "phone": "31",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "nl",
+            "name": "Dutch"
+          }
+        ]
+      },
+      {
+        "code": "NO",
+        "name": "Norway",
+        "emoji": "🇳🇴",
+        "native": "Norge",
+        "phone": "47",
+        "currency": "NOK",
+        "languages": [
+          {
+            "code": "nb",
+            "name": null
+          },
+          {
+            "code": "nn",
+            "name": "Norwegian Nynorsk"
+          },
+          {
+            "code": "no",
+            "name": "Norwegian"
+          }
+        ]
+      },
+      {
+        "code": "NP",
+        "name": "Nepal",
+        "emoji": "🇳🇵",
+        "native": "नपल",
+        "phone": "977",
+        "currency": "NPR",
+        "languages": [
+          {
+            "code": "ne",
+            "name": "Nepali"
+          }
+        ]
+      },
+      {
+        "code": "NR",
+        "name": "Nauru",
+        "emoji": "🇳🇷",
+        "native": "Nauru",
+        "phone": "674",
+        "currency": "AUD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "na",
+            "name": "Nauruan"
+          }
+        ]
+      },
+      {
+        "code": "NU",
+        "name": "Niue",
+        "emoji": "🇳🇺",
+        "native": "Niuē",
+        "phone": "683",
+        "currency": "NZD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "NZ",
+        "name": "New Zealand",
+        "emoji": "🇳🇿",
+        "native": "New Zealand",
+        "phone": "64",
+        "currency": "NZD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "mi",
+            "name": "Maori"
+          }
+        ]
+      },
+      {
+        "code": "OM",
+        "name": "Oman",
+        "emoji": "🇴🇲",
+        "native": "عمان",
+        "phone": "968",
+        "currency": "OMR",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "PA",
+        "name": "Panama",
+        "emoji": "🇵🇦",
+        "native": "Panamá",
+        "phone": "507",
+        "currency": "PAB,USD",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "PE",
+        "name": "Peru",
+        "emoji": "🇵🇪",
+        "native": "Perú",
+        "phone": "51",
+        "currency": "PEN",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "PF",
+        "name": "French Polynesia",
+        "emoji": "🇵🇫",
+        "native": "Polynésie française",
+        "phone": "689",
+        "currency": "XPF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "PG",
+        "name": "Papua New Guinea",
+        "emoji": "🇵🇬",
+        "native": "Papua Niugini",
+        "phone": "675",
+        "currency": "PGK",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "PH",
+        "name": "Philippines",
+        "emoji": "🇵🇭",
+        "native": "Pilipinas",
+        "phone": "63",
+        "currency": "PHP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "PK",
+        "name": "Pakistan",
+        "emoji": "🇵🇰",
+        "native": "Pakistan",
+        "phone": "92",
+        "currency": "PKR",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "ur",
+            "name": "Urdu"
+          }
+        ]
+      },
+      {
+        "code": "PL",
+        "name": "Poland",
+        "emoji": "🇵🇱",
+        "native": "Polska",
+        "phone": "48",
+        "currency": "PLN",
+        "languages": [
+          {
+            "code": "pl",
+            "name": "Polish"
+          }
+        ]
+      },
+      {
+        "code": "PM",
+        "name": "Saint Pierre and Miquelon",
+        "emoji": "🇵🇲",
+        "native": "Saint-Pierre-et-Miquelon",
+        "phone": "508",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "PN",
+        "name": "Pitcairn Islands",
+        "emoji": "🇵🇳",
+        "native": "Pitcairn Islands",
+        "phone": "64",
+        "currency": "NZD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "PR",
+        "name": "Puerto Rico",
+        "emoji": "🇵🇷",
+        "native": "Puerto Rico",
+        "phone": "1787,1939",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "PS",
+        "name": "Palestine",
+        "emoji": "🇵🇸",
+        "native": "فلسطين",
+        "phone": "970",
+        "currency": "ILS",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "PT",
+        "name": "Portugal",
+        "emoji": "🇵🇹",
+        "native": "Portugal",
+        "phone": "351",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          }
+        ]
+      },
+      {
+        "code": "PW",
+        "name": "Palau",
+        "emoji": "🇵🇼",
+        "native": "Palau",
+        "phone": "680",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "PY",
+        "name": "Paraguay",
+        "emoji": "🇵🇾",
+        "native": "Paraguay",
+        "phone": "595",
+        "currency": "PYG",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          },
+          {
+            "code": "gn",
+            "name": "Guarani"
+          }
+        ]
+      },
+      {
+        "code": "QA",
+        "name": "Qatar",
+        "emoji": "🇶🇦",
+        "native": "قطر",
+        "phone": "974",
+        "currency": "QAR",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "RE",
+        "name": "Réunion",
+        "emoji": "🇷🇪",
+        "native": "La Réunion",
+        "phone": "262",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "RO",
+        "name": "Romania",
+        "emoji": "🇷🇴",
+        "native": "România",
+        "phone": "40",
+        "currency": "RON",
+        "languages": [
+          {
+            "code": "ro",
+            "name": "Romanian"
+          }
+        ]
+      },
+      {
+        "code": "RS",
+        "name": "Serbia",
+        "emoji": "🇷🇸",
+        "native": "Србија",
+        "phone": "381",
+        "currency": "RSD",
+        "languages": [
+          {
+            "code": "sr",
+            "name": "Serbian"
+          }
+        ]
+      },
+      {
+        "code": "RU",
+        "name": "Russia",
+        "emoji": "🇷🇺",
+        "native": "Россия",
+        "phone": "7",
+        "currency": "RUB",
+        "languages": [
+          {
+            "code": "ru",
+            "name": "Russian"
+          }
+        ]
+      },
+      {
+        "code": "RW",
+        "name": "Rwanda",
+        "emoji": "🇷🇼",
+        "native": "Rwanda",
+        "phone": "250",
+        "currency": "RWF",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          },
+          {
+            "code": "rw",
+            "name": "Rwandi"
+          }
+        ]
+      },
+      {
+        "code": "SA",
+        "name": "Saudi Arabia",
+        "emoji": "🇸🇦",
+        "native": "العربية السعودية",
+        "phone": "966",
+        "currency": "SAR",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "SB",
+        "name": "Solomon Islands",
+        "emoji": "🇸🇧",
+        "native": "Solomon Islands",
+        "phone": "677",
+        "currency": "SBD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "SC",
+        "name": "Seychelles",
+        "emoji": "🇸🇨",
+        "native": "Seychelles",
+        "phone": "248",
+        "currency": "SCR",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "SD",
+        "name": "Sudan",
+        "emoji": "🇸🇩",
+        "native": "السودان",
+        "phone": "249",
+        "currency": "SDG",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "SE",
+        "name": "Sweden",
+        "emoji": "🇸🇪",
+        "native": "Sverige",
+        "phone": "46",
+        "currency": "SEK",
+        "languages": [
+          {
+            "code": "sv",
+            "name": "Swedish"
+          }
+        ]
+      },
+      {
+        "code": "SG",
+        "name": "Singapore",
+        "emoji": "🇸🇬",
+        "native": "Singapore",
+        "phone": "65",
+        "currency": "SGD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "ms",
+            "name": "Malay"
+          },
+          {
+            "code": "ta",
+            "name": "Tamil"
+          },
+          {
+            "code": "zh",
+            "name": "Chinese"
+          }
+        ]
+      },
+      {
+        "code": "SH",
+        "name": "Saint Helena",
+        "emoji": "🇸🇭",
+        "native": "Saint Helena",
+        "phone": "290",
+        "currency": "SHP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "SI",
+        "name": "Slovenia",
+        "emoji": "🇸🇮",
+        "native": "Slovenija",
+        "phone": "386",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "sl",
+            "name": "Slovenian"
+          }
+        ]
+      },
+      {
+        "code": "SJ",
+        "name": "Svalbard and Jan Mayen",
+        "emoji": "🇸🇯",
+        "native": "Svalbard og Jan Mayen",
+        "phone": "4779",
+        "currency": "NOK",
+        "languages": [
+          {
+            "code": "no",
+            "name": "Norwegian"
+          }
+        ]
+      },
+      {
+        "code": "SK",
+        "name": "Slovakia",
+        "emoji": "🇸🇰",
+        "native": "Slovensko",
+        "phone": "421",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "sk",
+            "name": "Slovak"
+          }
+        ]
+      },
+      {
+        "code": "SL",
+        "name": "Sierra Leone",
+        "emoji": "🇸🇱",
+        "native": "Sierra Leone",
+        "phone": "232",
+        "currency": "SLL",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "SM",
+        "name": "San Marino",
+        "emoji": "🇸🇲",
+        "native": "San Marino",
+        "phone": "378",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "it",
+            "name": "Italian"
+          }
+        ]
+      },
+      {
+        "code": "SN",
+        "name": "Senegal",
+        "emoji": "🇸🇳",
+        "native": "Sénégal",
+        "phone": "221",
+        "currency": "XOF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "SO",
+        "name": "Somalia",
+        "emoji": "🇸🇴",
+        "native": "Soomaaliya",
+        "phone": "252",
+        "currency": "SOS",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "so",
+            "name": "Somalia"
+          }
+        ]
+      },
+      {
+        "code": "SR",
+        "name": "Suriname",
+        "emoji": "🇸🇷",
+        "native": "Suriname",
+        "phone": "597",
+        "currency": "SRD",
+        "languages": [
+          {
+            "code": "nl",
+            "name": "Dutch"
+          }
+        ]
+      },
+      {
+        "code": "SS",
+        "name": "South Sudan",
+        "emoji": "🇸🇸",
+        "native": "South Sudan",
+        "phone": "211",
+        "currency": "SSP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "ST",
+        "name": "São Tomé and Príncipe",
+        "emoji": "🇸🇹",
+        "native": "São Tomé e Príncipe",
+        "phone": "239",
+        "currency": "STD",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          }
+        ]
+      },
+      {
+        "code": "SV",
+        "name": "El Salvador",
+        "emoji": "🇸🇻",
+        "native": "El Salvador",
+        "phone": "503",
+        "currency": "SVC,USD",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "SX",
+        "name": "Sint Maarten",
+        "emoji": "🇸🇽",
+        "native": "Sint Maarten",
+        "phone": "1721",
+        "currency": "ANG",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "nl",
+            "name": "Dutch"
+          }
+        ]
+      },
+      {
+        "code": "SY",
+        "name": "Syria",
+        "emoji": "🇸🇾",
+        "native": "سوريا",
+        "phone": "963",
+        "currency": "SYP",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "SZ",
+        "name": "Swaziland",
+        "emoji": "🇸🇿",
+        "native": "Swaziland",
+        "phone": "268",
+        "currency": "SZL",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "ss",
+            "name": "Swati"
+          }
+        ]
+      },
+      {
+        "code": "TC",
+        "name": "Turks and Caicos Islands",
+        "emoji": "🇹🇨",
+        "native": "Turks and Caicos Islands",
+        "phone": "1649",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "TD",
+        "name": "Chad",
+        "emoji": "🇹🇩",
+        "native": "Tchad",
+        "phone": "235",
+        "currency": "XAF",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "TF",
+        "name": "French Southern Territories",
+        "emoji": "🇹🇫",
+        "native": "Territoire des Terres australes et antarctiques fr",
+        "phone": "262",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "TG",
+        "name": "Togo",
+        "emoji": "🇹🇬",
+        "native": "Togo",
+        "phone": "228",
+        "currency": "XOF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "TH",
+        "name": "Thailand",
+        "emoji": "🇹🇭",
+        "native": "ประเทศไทย",
+        "phone": "66",
+        "currency": "THB",
+        "languages": [
+          {
+            "code": "th",
+            "name": "Thai"
+          }
+        ]
+      },
+      {
+        "code": "TJ",
+        "name": "Tajikistan",
+        "emoji": "🇹🇯",
+        "native": "Тоҷикистон",
+        "phone": "992",
+        "currency": "TJS",
+        "languages": [
+          {
+            "code": "ru",
+            "name": "Russian"
+          },
+          {
+            "code": "tg",
+            "name": "Tajik"
+          }
+        ]
+      },
+      {
+        "code": "TK",
+        "name": "Tokelau",
+        "emoji": "🇹🇰",
+        "native": "Tokelau",
+        "phone": "690",
+        "currency": "NZD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "TL",
+        "name": "East Timor",
+        "emoji": "🇹🇱",
+        "native": "Timor-Leste",
+        "phone": "670",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "pt",
+            "name": "Portuguese"
+          }
+        ]
+      },
+      {
+        "code": "TM",
+        "name": "Turkmenistan",
+        "emoji": "🇹🇲",
+        "native": "Türkmenistan",
+        "phone": "993",
+        "currency": "TMT",
+        "languages": [
+          {
+            "code": "ru",
+            "name": "Russian"
+          },
+          {
+            "code": "tk",
+            "name": "Turkmen"
+          }
+        ]
+      },
+      {
+        "code": "TN",
+        "name": "Tunisia",
+        "emoji": "🇹🇳",
+        "native": "تونس",
+        "phone": "216",
+        "currency": "TND",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "TO",
+        "name": "Tonga",
+        "emoji": "🇹🇴",
+        "native": "Tonga",
+        "phone": "676",
+        "currency": "TOP",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "to",
+            "name": "Tonga"
+          }
+        ]
+      },
+      {
+        "code": "TR",
+        "name": "Turkey",
+        "emoji": "🇹🇷",
+        "native": "Türkiye",
+        "phone": "90",
+        "currency": "TRY",
+        "languages": [
+          {
+            "code": "tr",
+            "name": "Turkish"
+          }
+        ]
+      },
+      {
+        "code": "TT",
+        "name": "Trinidad and Tobago",
+        "emoji": "🇹🇹",
+        "native": "Trinidad and Tobago",
+        "phone": "1868",
+        "currency": "TTD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "TV",
+        "name": "Tuvalu",
+        "emoji": "🇹🇻",
+        "native": "Tuvalu",
+        "phone": "688",
+        "currency": "AUD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "TW",
+        "name": "Taiwan",
+        "emoji": "🇹🇼",
+        "native": "臺灣",
+        "phone": "886",
+        "currency": "TWD",
+        "languages": [
+          {
+            "code": "zh",
+            "name": "Chinese"
+          }
+        ]
+      },
+      {
+        "code": "TZ",
+        "name": "Tanzania",
+        "emoji": "🇹🇿",
+        "native": "Tanzania",
+        "phone": "255",
+        "currency": "TZS",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "sw",
+            "name": "Swahili"
+          }
+        ]
+      },
+      {
+        "code": "UA",
+        "name": "Ukraine",
+        "emoji": "🇺🇦",
+        "native": "Україна",
+        "phone": "380",
+        "currency": "UAH",
+        "languages": [
+          {
+            "code": "uk",
+            "name": "Ukrainian"
+          }
+        ]
+      },
+      {
+        "code": "UG",
+        "name": "Uganda",
+        "emoji": "🇺🇬",
+        "native": "Uganda",
+        "phone": "256",
+        "currency": "UGX",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "sw",
+            "name": "Swahili"
+          }
+        ]
+      },
+      {
+        "code": "UM",
+        "name": "U.S. Minor Outlying Islands",
+        "emoji": "🇺🇲",
+        "native": "United States Minor Outlying Islands",
+        "phone": "1",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "US",
+        "name": "United States",
+        "emoji": "🇺🇸",
+        "native": "United States",
+        "phone": "1",
+        "currency": "USD,USN,USS",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "UY",
+        "name": "Uruguay",
+        "emoji": "🇺🇾",
+        "native": "Uruguay",
+        "phone": "598",
+        "currency": "UYI,UYU",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "UZ",
+        "name": "Uzbekistan",
+        "emoji": "🇺🇿",
+        "native": "O‘zbekiston",
+        "phone": "998",
+        "currency": "UZS",
+        "languages": [
+          {
+            "code": "ru",
+            "name": "Russian"
+          },
+          {
+            "code": "uz",
+            "name": "Uzbek"
+          }
+        ]
+      },
+      {
+        "code": "VA",
+        "name": "Vatican City",
+        "emoji": "🇻🇦",
+        "native": "Vaticano",
+        "phone": "39066,379",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "it",
+            "name": "Italian"
+          },
+          {
+            "code": "la",
+            "name": "Latin"
+          }
+        ]
+      },
+      {
+        "code": "VC",
+        "name": "Saint Vincent and the Grenadines",
+        "emoji": "🇻🇨",
+        "native": "Saint Vincent and the Grenadines",
+        "phone": "1784",
+        "currency": "XCD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "VE",
+        "name": "Venezuela",
+        "emoji": "🇻🇪",
+        "native": "Venezuela",
+        "phone": "58",
+        "currency": "VEF",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish"
+          }
+        ]
+      },
+      {
+        "code": "VG",
+        "name": "British Virgin Islands",
+        "emoji": "🇻🇬",
+        "native": "British Virgin Islands",
+        "phone": "1284",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "VI",
+        "name": "U.S. Virgin Islands",
+        "emoji": "🇻🇮",
+        "native": "United States Virgin Islands",
+        "phone": "1340",
+        "currency": "USD",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "VN",
+        "name": "Vietnam",
+        "emoji": "🇻🇳",
+        "native": "Việt Nam",
+        "phone": "84",
+        "currency": "VND",
+        "languages": [
+          {
+            "code": "vi",
+            "name": "Vietnamese"
+          }
+        ]
+      },
+      {
+        "code": "VU",
+        "name": "Vanuatu",
+        "emoji": "🇻🇺",
+        "native": "Vanuatu",
+        "phone": "678",
+        "currency": "VUV",
+        "languages": [
+          {
+            "code": "bi",
+            "name": "Bislama"
+          },
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "WF",
+        "name": "Wallis and Futuna",
+        "emoji": "🇼🇫",
+        "native": "Wallis et Futuna",
+        "phone": "681",
+        "currency": "XPF",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "WS",
+        "name": "Samoa",
+        "emoji": "🇼🇸",
+        "native": "Samoa",
+        "phone": "685",
+        "currency": "WST",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "sm",
+            "name": "Samoan"
+          }
+        ]
+      },
+      {
+        "code": "XK",
+        "name": "Kosovo",
+        "emoji": "🇽🇰",
+        "native": "Republika e Kosovës",
+        "phone": "377,381,383,386",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "sq",
+            "name": "Albanian"
+          },
+          {
+            "code": "sr",
+            "name": "Serbian"
+          }
+        ]
+      },
+      {
+        "code": "YE",
+        "name": "Yemen",
+        "emoji": "🇾🇪",
+        "native": "اليَمَن",
+        "phone": "967",
+        "currency": "YER",
+        "languages": [
+          {
+            "code": "ar",
+            "name": "Arabic"
+          }
+        ]
+      },
+      {
+        "code": "YT",
+        "name": "Mayotte",
+        "emoji": "🇾🇹",
+        "native": "Mayotte",
+        "phone": "262",
+        "currency": "EUR",
+        "languages": [
+          {
+            "code": "fr",
+            "name": "French"
+          }
+        ]
+      },
+      {
+        "code": "ZA",
+        "name": "South Africa",
+        "emoji": "🇿🇦",
+        "native": "South Africa",
+        "phone": "27",
+        "currency": "ZAR",
+        "languages": [
+          {
+            "code": "af",
+            "name": "Afrikaans"
+          },
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "nr",
+            "name": "South Ndebele"
+          },
+          {
+            "code": "ss",
+            "name": "Swati"
+          },
+          {
+            "code": "st",
+            "name": "Southern Sotho"
+          },
+          {
+            "code": "tn",
+            "name": "Tswana"
+          },
+          {
+            "code": "ts",
+            "name": "Tsonga"
+          },
+          {
+            "code": "ve",
+            "name": "Venda"
+          },
+          {
+            "code": "xh",
+            "name": "Xhosa"
+          },
+          {
+            "code": "zu",
+            "name": "Zulu"
+          }
+        ]
+      },
+      {
+        "code": "ZM",
+        "name": "Zambia",
+        "emoji": "🇿🇲",
+        "native": "Zambia",
+        "phone": "260",
+        "currency": "ZMK",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          }
+        ]
+      },
+      {
+        "code": "ZW",
+        "name": "Zimbabwe",
+        "emoji": "🇿🇼",
+        "native": "Zimbabwe",
+        "phone": "263",
+        "currency": "ZWL",
+        "languages": [
+          {
+            "code": "en",
+            "name": "English"
+          },
+          {
+            "code": "nd",
+            "name": "North Ndebele"
+          },
+          {
+            "code": "sn",
+            "name": "Shona"
+          }
+        ]
+      }
+    ]
+  }
+}
