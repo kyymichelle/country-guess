@@ -1,40 +1,44 @@
-import React, { FormEvent, SyntheticEvent } from 'react';
+import React, { FormEvent, useState } from 'react';
 import { Button, Form } from 'react-bootstrap';
 
+import { CountryGuessAlert } from './';
+
 interface GameProps {
-  countryAnswer: string;
+  countrySolution: string;
 }
 
-interface GameState {
-  isCorrect: boolean;
-  numGuesses: number;
-}
+// interface GameState {
+//   countryGuess?: string;
+//   isCorrect: boolean;
+//   numGuess: number;
+// }
 
-export class CountryGuessGame extends React.Component<GameProps, GameState> {
-  state: GameState = {
-    isCorrect: false,
-    numGuesses: 0,
+export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
+  const [countryGuess, setCountryGuess] = useState('');
+  const [isCorrect, setIsCorrect] = useState(false);
+  const [numGuess, setNumGuess] = useState(0);
+
+  const validateCountryGuess = (guess: string, solution: string): boolean => {
+    return guess.toLowerCase() === solution.toLowerCase();
   };
 
-  validateForm(): boolean {
-    return false;
-  }
-
-  handleSubmit(event: SyntheticEvent): void {
+  const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    console.log(event.currentTarget);
-  }
 
-  render() {
-    return (
-      <Form onSubmit={this.handleSubmit}>
-        <Form.Group>
-          <Form.Label>Country name</Form.Label>
-          <Form.Control name="countryGuess" type="text" placeholder="Make your guess" required />
-          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
-        </Form.Group>
-        <Button type="submit">Make your guess</Button>
-      </Form>
-    );
-  }
-}
+    setIsCorrect(validateCountryGuess(countryGuess, props.countrySolution));
+    setNumGuess(numGuess + 1);
+  };
+
+  const handleChange = (e: any) => setCountryGuess(e.currentTarget.value);
+
+  return (
+    <Form onSubmit={handleSubmit}>
+      {numGuess > 0 && <CountryGuessAlert isCorrect={isCorrect} numGuess={numGuess}></CountryGuessAlert>}
+      <Form.Group>
+        <Form.Label>Country name</Form.Label>
+        <Form.Control type="text" placeholder="..." onChange={handleChange} required />
+      </Form.Group>
+      <Button type="submit">Make your guess</Button>
+    </Form>
+  );
+};

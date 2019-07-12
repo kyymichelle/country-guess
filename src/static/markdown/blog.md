@@ -4,7 +4,7 @@ The aim of this project is to make a simple word guessing game utilising this [G
 
 #### Planning
 
-For the guessing game, the application will first grab a list of countries from the API to populate the store. Then the CountryGuess component can be passed random countries via its container. The CountryGuess component will initially be a fill-in-the-blanks string matching game, but I can later add more features to it like guess based on country flag or adjustable difficulty levels.
+For the guessing game, the application will first grab a list of countries from the API to populate the Redux store. Then the CountryGuessGame component can be passed random countries via its container. The CountryGuessGame component will initially be a fill-in-the-blanks string matching game, but I can later add more features to it like guess based on country flag or adjustable difficulty levels.
 
 #### Typescript & linting
 
@@ -20,10 +20,65 @@ For a while the project wasn't picking up my prettier configs - turns out I had 
 
 #### Typescript
 
-Having done some basic setup for the project, it was time to properly learn the ins and outs of Typescript. [This handy guide](https://2ality.com/2018/04/type-notation-typescript.html) was great for basic concepts and syntax. [This guide](https://medium.com/@rossbulat/how-to-use-typescript-with-react-and-redux-a118b1e02b76) goes through step by step using Typescript with React and Redux.
+Having done some basic setup for the project, it was time to properly learn the ins and outs of Typescript. [This handy guide](https://2ality.com/2018/04/type-notation-typescript.html) was great for basic concepts and syntax and [this is a concise styleguide](https://github.com/basarat/typescript-book/blob/master/docs/styleguide/styleguide.md). [This guide](https://medium.com/@rossbulat/how-to-use-typescript-with-react-and-redux-a118b1e02b76) goes through step by step using Typescript with React and Redux.
 
 #### Markdown
 
 The first thing to do was to get this blog page up and running. To do this, I followed [these examples](https://stackoverflow.com/questions/42928530/how-do-i-load-a-markdown-file-into-a-react-component) in using `react-markdown`.
 
 I had issues importing the markdown file via Typescript, as it had been giving the `Cannot find module` error. The fix was to [add a declaration file](https://github.com/webpack-contrib/raw-loader/issues/56#issuecomment-423640398) so that Typescript would pick up the `.md` file extension as a module.
+
+#### React Hooks
+
+Initially I had started writing the CountryGuessGame component with the usual class component method, but after reading about [react hooks](https://reactjs.org/docs/hooks-overview.html), I decided to make the switch to a functional component. Being early in the project, the rewrite was very simple - going from:
+
+```
+export class CountryGuessGame extends React.Component<GameProps, GameState> {
+  state: GameState = {
+    isCorrect: false,
+    numGuess: 0,
+  };
+
+  handleSubmit(event: FormEvent<HTMLFormElement>): void {
+    event.preventDefault();
+    console.log(event);
+  }
+
+  render() {
+    return (
+      <Form onSubmit={this.handleSubmit}>
+        <Form.Group>
+          <Form.Label>Country name</Form.Label>
+          <Form.Control type="text" placeholder="..." required />
+        </Form.Group>
+        <Button type="submit">Make your guess</Button>
+      </Form>
+    );
+  }
+}
+```
+
+To the following:
+
+```
+export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
+  const [countryGuess, setCountryGuess] = useState('');
+  const [isCorrect, setIsCorrect] = useState(false);
+  const [numGuess, setNumGuess] = useState(0);
+
+  const handleSubmit = (event: FormEvent<HTMLFormElement>): void => {
+    event.preventDefault();
+    console.log(event);
+  };
+
+  return (
+    <Form onSubmit={handleSubmit}>
+      <Form.Group>
+        <Form.Label>Country name</Form.Label>
+        <Form.Control type="text" placeholder="..." required />
+      </Form.Group>
+      <Button type="submit">Make your guess</Button>
+    </Form>
+  );
+};
+```

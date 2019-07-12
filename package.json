@@ -33,6 +33,11 @@
     "eslint-plugin-react-hooks": "^1.6.1",
     "prettier": "^1.18.2"
   },
+  "jest": {
+    "roots": [
+      "<rootDir>/src/javascript"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
