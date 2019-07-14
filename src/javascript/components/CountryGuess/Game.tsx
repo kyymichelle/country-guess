@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from 'react';
+import React, { FormEvent } from 'react';
 import { FormControlProps } from 'react-bootstrap';
 import { CountryGuessAlert, CountryGuessForm } from './';
 
@@ -9,14 +9,14 @@ interface GameProps {
 interface GameState {
   countryGuess: string;
   isCorrect: boolean;
-  numGuess: number;
+  guessCount: number;
 }
 
 export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
-  const [state, setState] = useState<GameState>({
+  const [state, setState] = React.useState<GameState>({
     countryGuess: '',
     isCorrect: false,
-    numGuess: 0,
+    guessCount: 0,
   });
 
   const validateCountryGuess = (guess: string, solution: string): boolean => {
@@ -29,7 +29,7 @@ export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
     setState({
       ...state,
       isCorrect: validateCountryGuess(state.countryGuess, props.countrySolution),
-      numGuess: state.numGuess + 1,
+      guessCount: state.guessCount + 1,
     });
   };
 
@@ -41,8 +41,8 @@ export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
 
   return (
     <div className="country-guess-game">
-      {state.numGuess > 0 && (
-        <CountryGuessAlert isCorrect={state.isCorrect} numGuess={state.numGuess}></CountryGuessAlert>
+      {state.guessCount > 0 && (
+        <CountryGuessAlert isCorrect={state.isCorrect} guessCount={state.guessCount}></CountryGuessAlert>
       )}
       <CountryGuessForm handleChange={handleChange} handleSubmit={handleSubmit}></CountryGuessForm>
     </div>

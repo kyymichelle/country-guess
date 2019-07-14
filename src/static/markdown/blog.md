@@ -36,7 +36,7 @@ Initially I had started writing the CountryGuessGame component with the usual cl
 export class CountryGuessGame extends React.Component<GameProps, GameState> {
   state: GameState = {
     isCorrect: false,
-    numGuess: 0,
+    guessCount: 0,
   };
 
   handleSubmit(event: FormEvent<HTMLFormElement>): void {
@@ -64,7 +64,7 @@ To the following:
 export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
   const [countryGuess, setCountryGuess] = useState('');
   const [isCorrect, setIsCorrect] = useState(false);
-  const [numGuess, setNumGuess] = useState(0);
+  const [guessCount, setguessCount] = useState(0);
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>): void => {
     event.preventDefault();
@@ -89,13 +89,13 @@ However that involved removing the GameState interface, so to make things a bit 
 // Before
 const [countryGuess, setCountryGuess] = useState('');
 const [isCorrect, setIsCorrect] = useState(false);
-const [numGuess, setNumGuess] = useState(0);
+const [guessCount, setguessCount] = useState(0);
 
 // After
 const [state, setState] = useState<GameState>({
   countryGuess: '',
   isCorrect: false,
-  numGuess: 0,
+  guessCount: 0,
 });
 ```
 
@@ -103,4 +103,4 @@ After a bit of tweaking, my `CountryGuessGame` component now has a form (this ma
 
 #### Testing
 
-Before moving on to starting to write the Redux store, I wanted to do some tests for the new component.
+Before moving on to starting to write the Redux store, I wanted to do some tests for the new component. Following this [useful example](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga), I found that I had to remove the `useState` import from Game.tsx and use `React.useState` so that I could mock the entire `React` module.
