@@ -1,37 +1,28 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
+
 import BlogMarkdown from '../static/markdown/blog.md';
 import { NavMain } from '../components/Nav';
 
-interface BlogState {
-  markdown: string;
-}
+export const Blog: React.FC = () => {
+  const [markdown, setMarkdown] = React.useState<string>('');
 
-export class Blog extends React.Component<{}, BlogState> {
-  state: BlogState = {
-    markdown: '',
-  };
-
-  componentWillMount() {
+  React.useEffect(() => {
     fetch(BlogMarkdown)
       .then(response => response.text())
       .then(text => {
-        this.setState({ markdown: text });
+        setMarkdown(text);
       });
-  }
+  }, []);
 
-  render() {
-    const { markdown } = this.state;
-
-    return (
-      <div className="page-blog">
-        <NavMain></NavMain>
-        <Container className="py-5">
-          <h1>Blog</h1>
-          <ReactMarkdown source={markdown} />
-        </Container>
-      </div>
-    );
-  }
-}
+  return (
+    <div className="page-blog">
+      <NavMain></NavMain>
+      <Container className="py-5">
+        <h1>Blog</h1>
+        <ReactMarkdown source={markdown} />
+      </Container>
+    </div>
+  );
+};
