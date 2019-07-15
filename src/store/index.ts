@@ -1,8 +1,8 @@
 import { createStore, combineReducers } from 'redux';
+import { countriesReducer } from './countries/reducer';
 
 const rootReducer = combineReducers({
-  // system: systemReducer,
-  // chat: chatReducer
+  countries: countriesReducer,
 });
 
 export type AppState = ReturnType<typeof rootReducer>;

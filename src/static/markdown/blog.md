@@ -1,6 +1,6 @@
 #### Overview
 
-The aim of this project is to make a simple word guessing game utilising this [GraphQL API](https://countries.trevorblades.com/). Along the way, I'd like to familiarise myself with using Typescript with React and Redux. Here's some notes I've taken :)
+The aim of this project is to make a simple word guessing game utilising this [GraphQL API](https://countries.trevorblades.com/). Along the way, I'd like to familiarise myself with using Typescript and React Hooks. Here's some notes I've taken :)
 
 #### Planning
 
@@ -103,4 +103,8 @@ After a bit of tweaking, my `CountryGuessGame` component now has a form (this ma
 
 #### Testing
 
-Before moving on to starting to write the Redux store, I wanted to do some tests for the new component. Following this [useful example](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga), I found that I had to remove the `useState` import from Game.tsx and use `React.useState` so that I could mock the entire `React` module.
+Before moving on to starting to write the Redux store, I wanted to do some tests for the new component. Following this [useful example](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga), I found that the `useState` import had to be removed from Game.tsx and to use `React.useState` instead so that I could mock the entire `React` module. However as `setState` was only being mocked, I ran into a problem trying to test the update of the component state, so will move on for now
+
+#### Redux store
+
+Although this is a simple application where the data could be handled by the React [Context API](https://reactjs.org/docs/context.html), for the purpose of refreshing my memory a Redux store will be used. [This guide](https://redux.js.org/recipes/usage-with-typescript) was super helpful in getting started.
