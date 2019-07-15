@@ -1,6 +1,6 @@
 import React, { FormEvent } from 'react';
 import { FormControlProps } from 'react-bootstrap';
-import { CountryGuessAlert, CountryGuessForm } from './';
+import { CountryGuessAlert, CountryGuessForm } from '.';
 
 interface GameProps {
   countrySolution: string;
