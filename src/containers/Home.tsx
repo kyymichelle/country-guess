@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useStore } from 'react-redux';
 import { Container } from 'react-bootstrap';
 import { fetchCountries } from '../store/countries/actions';
 import { NavMain } from '../components/Nav';
@@ -7,10 +7,13 @@ import { CountryGuessGame } from '../components/CountryGuess';
 
 export const Home: React.FC = () => {
   const dispatch = useDispatch();
+  const store = useStore();
 
   React.useEffect(() => {
     dispatch(fetchCountries());
-  }, [dispatch]);
+
+    console.log(store.getState());
+  }, []);
 
   return (
     <div className="page-home">

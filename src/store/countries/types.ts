@@ -16,12 +16,15 @@ export interface Language {
 
 export interface CountriesState {
   isLoading: boolean;
+  error: string;
   countries: Country[];
 }
 
 // Action names
 export const FETCH = '@@app/countries/FETCH';
 export const FETCH_ALL = '@@app/countries/FETCH_ALL';
+export const FETCH_ALL_SUCCESS = '@@app/countries/FETCH_ALL_SUCCESS';
+export const FETCH_ALL_ERROR = '@@app/countries/FETCH_ALL_ERROR';
 
 // Action definitions
 interface FetchAction {
@@ -35,4 +38,18 @@ interface FetchAllAction {
   type: typeof FETCH_ALL;
 }
 
-export type CountriesActionTypes = FetchAction | FetchAllAction;
+interface FetchAllActionSuccess {
+  type: typeof FETCH_ALL_SUCCESS;
+  payload: {
+    data: Country[];
+  };
+}
+
+interface FetchAllActionError {
+  type: typeof FETCH_ALL_ERROR;
+  payload: {
+    error: any;
+  };
+}
+
+export type CountriesActionTypes = FetchAction | FetchAllAction | FetchAllActionSuccess | FetchAllActionError;
