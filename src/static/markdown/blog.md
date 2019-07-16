@@ -108,3 +108,5 @@ Before moving on to starting to write the Redux store, I wanted to do some tests
 #### Redux store
 
 Although this is a simple application where the data could be handled by the React [Context API](https://reactjs.org/docs/context.html), for the purpose of refreshing my memory a Redux store will be used. [This guide](https://redux.js.org/recipes/usage-with-typescript) was super helpful in getting started.
+
+After doing some reading, I thought it'd be good to try out these handy [react-redux hooks](https://react-redux.js.org/next/api/hooks) as they could replace the use of the `connect()` function with class components. To do this, I refactored the container components to be functional components, and the code looks noticeably neater already!

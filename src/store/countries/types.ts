@@ -2,11 +2,11 @@
 export interface Country {
   code: string;
   name: string;
-  emoji: string;
-  native: string;
-  phone: string;
-  currency: string;
-  languages: Language;
+  emoji?: string;
+  native?: string;
+  phone?: string;
+  currency?: string;
+  languages?: Language;
 }
 
 export interface Language {
@@ -26,6 +26,9 @@ export const FETCH_ALL = '@@app/countries/FETCH_ALL';
 // Action definitions
 interface FetchAction {
   type: typeof FETCH;
+  payload: {
+    code: string;
+  };
 }
 
 interface FetchAllAction {

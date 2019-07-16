@@ -1,6 +1,12 @@
 import { createStore, combineReducers } from 'redux';
 import { countriesReducer } from './countries/reducer';
 
+declare global {
+  interface Window {
+    __REDUX_DEVTOOLS_EXTENSION__: any;
+  }
+}
+
 const rootReducer = combineReducers({
   countries: countriesReducer,
 });
@@ -13,7 +19,8 @@ export default function configureStore() {
 
   const store = createStore(
     rootReducer,
-    // composeWithDevTools(middleWareEnhancer)
+    // composeWithDevTools(middleWareEnhancer),
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
   );
 
   return store;

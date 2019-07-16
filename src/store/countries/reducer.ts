@@ -6,9 +6,14 @@ export const initialState: CountriesState = {
 };
 
 export const countriesReducer = (state = initialState, action: CountriesActionTypes): CountriesState => {
-  console.log('Countries reducer:', action);
-
   switch (action.type) {
+    case FETCH_ALL:
+      console.log('REDUCER FETCHALL', state);
+      return {
+        ...state,
+        countries: [...state.countries, { code: 'aus', name: 'australia' }],
+      };
+    case FETCH:
     default:
       return state;
   }
