@@ -1,5 +1,4 @@
 import React from 'react';
-// import {get} from 'axios'
 import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 

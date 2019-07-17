@@ -10,10 +10,8 @@ export const Home: React.FC = () => {
   const store = useStore();
 
   React.useEffect(() => {
-    dispatch(fetchCountries());
-
-    console.log(store.getState());
-  }, []);
+    dispatch(fetchCountries()); // Populate store
+  }, [dispatch]);
 
   return (
     <div className="page-home">

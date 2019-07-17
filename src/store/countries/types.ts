@@ -20,20 +20,27 @@ export interface CountriesState {
   countries: Country[];
 }
 
+// GraphQL queries
+export const countriesQuery = `
+  {
+    countries {
+      code,
+      name,
+      emoji,
+      native,
+      phone,
+      currency,
+      languages{code,name}
+    }
+  }
+`;
+
 // Action names
-export const FETCH = '@@app/countries/FETCH';
 export const FETCH_ALL = '@@app/countries/FETCH_ALL';
 export const FETCH_ALL_SUCCESS = '@@app/countries/FETCH_ALL_SUCCESS';
 export const FETCH_ALL_ERROR = '@@app/countries/FETCH_ALL_ERROR';
 
 // Action definitions
-interface FetchAction {
-  type: typeof FETCH;
-  payload: {
-    code: string;
-  };
-}
-
 interface FetchAllAction {
   type: typeof FETCH_ALL;
 }
@@ -41,7 +48,7 @@ interface FetchAllAction {
 interface FetchAllActionSuccess {
   type: typeof FETCH_ALL_SUCCESS;
   payload: {
-    data: Country[];
+    countries: Country[];
   };
 }
 
@@ -52,4 +59,4 @@ interface FetchAllActionError {
   };
 }
 
-export type CountriesActionTypes = FetchAction | FetchAllAction | FetchAllActionSuccess | FetchAllActionError;
+export type CountriesActionTypes = FetchAllAction | FetchAllActionSuccess | FetchAllActionError;
