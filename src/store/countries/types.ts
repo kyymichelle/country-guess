@@ -20,7 +20,7 @@ export interface CountriesState {
   countries: Country[];
 }
 
-// GraphQL queries
+// GraphQL query for https://countries.trevorblades.com/
 export const countriesQuery = `
   {
     countries {

@@ -16,6 +16,7 @@ export const countriesReducer = (state = initialState, action: CountriesActionTy
 
     case FETCH_ALL_SUCCESS:
       const { countries } = action.payload;
+      console.log('FETCH SUCCESS', countries);
       return {
         ...state,
         isLoading: false,

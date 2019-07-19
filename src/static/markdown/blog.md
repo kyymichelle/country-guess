@@ -97,7 +97,7 @@ const [state, setState] = useState<GameState>({
 
 After a bit of tweaking, my `CountryGuessGame` component now has a form (this may later be moved into its own component) that validates a submitted string against a solution string and then displaying a `CountryGuessAlert` component with feedback.
 
-#### Testing
+#### Testing components
 
 Before moving on to starting to write the Redux store, I wanted to do some tests for the new component. Following this [useful example](https://dev.to/theactualgivens/testing-react-hook-state-changes-2oga), I found that the `useState` import had to be removed from Game.tsx and to use `React.useState` instead so that I could mock the entire `React` module. However as `setState` was only being mocked, I ran into a problem trying to test the update of the component state, so will move on for now
 
