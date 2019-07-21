@@ -35,6 +35,7 @@ export const fetchCountries = (): any => {
         { code: 'aus', name: 'australia' },
         { code: 'ch', name: 'china' },
         { code: 'nz', name: 'new zealand' },
+        { code: 'tw', name: 'taiwan' },
       ]),
     );
   };

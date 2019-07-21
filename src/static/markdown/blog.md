@@ -107,6 +107,11 @@ Although this is a simple application where the data could be handled by the Rea
 
 After doing some reading, I thought it'd be good to try out these handy [react-redux hooks](https://react-redux.js.org/next/api/hooks) as they could replace the use of the `connect()` function with class components. To do this, I refactored the container components to be functional components, and the code looks noticeably neater already!
 
+#### Game state
+
+Initially, the redux store started with just the countries reducer - which populated the list of countries from the API. From there the React components could use a selector to grab a random value from this list to use in the game. However the value would change because there was no game state to keep track of it. So to create this state I could either: just set it up inside a component and pass it down, or create a reducer in the store.
+
 #### TODOs
 
 - In /containers/Blog.tsx fix fetch() with something that works cross browser because it's not supported by IE - maybe a polyfill?
+- Tidy up the types in the redux store - fix apropriate `any` types

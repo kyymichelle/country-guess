@@ -14,13 +14,17 @@ export const Home: React.FC = () => {
     dispatch(fetchCountries()); // Populate store
   }, [dispatch]);
 
+  React.useEffect(() => {
+    console.log('RANDOM SELECTED', country);
+  }, [country]);
+
   return (
     <div className="page-home">
       <NavMain></NavMain>
       <Container className="py-5">
         <h1>Home</h1>
         <h2>Solution: {JSON.stringify(country)}</h2>
-        <CountryGuessGame countrySolution="australia"></CountryGuessGame>
+        <CountryGuessGame countrySolution={country ? country.name : ''}></CountryGuessGame>
       </Container>
     </div>
   );
