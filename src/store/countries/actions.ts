@@ -34,12 +34,13 @@ export const fetchCountries = (): any => {
     //     dispatch(fetchCountriesError(error));
     //   });
 
+    // Test data
     dispatch(
       fetchCountriesSuccess([
         { code: 'aus', name: 'australia' },
         { code: 'ch', name: 'china' },
         { code: 'nz', name: 'new zealand' },
-        { code: 'tw', name: 'taiwan' },
+        { code: 'kr', name: 'south korea' },
       ]),
     );
   };

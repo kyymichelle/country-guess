@@ -9,7 +9,7 @@ describe('CountryGuessGame', () => {
 
   // Constants
   const initProps = {
-    countrySolution: 'Australia',
+    solution: { code: 'aus', name: 'australia' },
   };
 
   const initState = {

@@ -1,9 +1,10 @@
 import React, { FormEvent } from 'react';
 import { FormControlProps } from 'react-bootstrap';
-import { CountryGuessAlert, CountryGuessForm } from '.';
+import { Country } from '../../store/countries/types';
+import { CountryGuessAlert, CountryGuessCheat, CountryGuessClue, CountryGuessForm } from '.';
 
 interface GameProps {
-  countrySolution: string;
+  solution: Country;
 }
 
 interface GameState {
@@ -28,7 +29,7 @@ export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
 
     setState({
       ...state,
-      isCorrect: validateCountryGuess(state.countryGuess, props.countrySolution),
+      isCorrect: validateCountryGuess(state.countryGuess, props.solution.name),
       guessCount: state.guessCount + 1,
     });
   };
@@ -44,7 +45,9 @@ export const CountryGuessGame: React.FC<GameProps> = (props: GameProps) => {
       {state.guessCount > 0 && (
         <CountryGuessAlert isCorrect={state.isCorrect} guessCount={state.guessCount}></CountryGuessAlert>
       )}
+      <CountryGuessClue countryName={props.solution.name}></CountryGuessClue>
       <CountryGuessForm handleChange={handleChange} handleSubmit={handleSubmit}></CountryGuessForm>
+      <CountryGuessCheat country={props.solution}></CountryGuessCheat>
     </div>
   );
 };

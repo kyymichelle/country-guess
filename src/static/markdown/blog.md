@@ -113,5 +113,8 @@ Initially, the redux store started with just the countries reducer - which popul
 
 #### TODOs
 
+- Fix tests
 - In /containers/Blog.tsx fix fetch() with something that works cross browser because it's not supported by IE - maybe a polyfill?
-- Tidy up the types in the redux store - fix apropriate `any` types
+- Tidy up the types in the redux store - e.g. fix `any` with appropriate types
+- Improve solution checking - e.g. accomodate the use of special characters
+- Fill in guess character by character

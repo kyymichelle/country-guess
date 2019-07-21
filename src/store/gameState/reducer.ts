@@ -6,7 +6,7 @@ const initialState: GameState = {
   currentSolution: null,
 };
 
-export const countriesReducer = (state = initialState, action: GameStateActionTypes): GameState => {
+export const gameStateReducer = (state = initialState, action: GameStateActionTypes): GameState => {
   switch (action.type) {
     case SETUP:
       return {
