@@ -3,24 +3,27 @@ import { FETCH_ALL, FETCH_ALL_SUCCESS, FETCH_ALL_ERROR, CountriesActionTypes, Co
 const initialState: CountriesState = {
   isLoading: false,
   error: '',
-  countries: [],
+  countriesKeys: [],
+  countriesData: {},
 };
 
 export const countriesReducer = (state = initialState, action: CountriesActionTypes): CountriesState => {
   switch (action.type) {
     case FETCH_ALL:
+      console.log('FETCH ALL');
       return {
         ...state,
         isLoading: true,
       };
 
     case FETCH_ALL_SUCCESS:
-      const { countries } = action.payload;
-      console.log('FETCH SUCCESS', countries);
+      const { countriesKeys, countriesData } = action.payload;
+      console.log('FETCH SUCCESS', action.payload);
       return {
         ...state,
+        countriesKeys,
+        countriesData,
         isLoading: false,
-        countries: [...countries],
       };
 
     case FETCH_ALL_ERROR:

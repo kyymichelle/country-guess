@@ -1,8 +1,10 @@
 import { Action, ActionCreator, Dispatch } from 'redux';
 import { ThunkAction } from 'redux-thunk';
 import axios from 'axios';
+import { keyBy } from 'lodash';
 import {
   Country,
+  FETCH_ALL,
   FETCH_ALL_SUCCESS,
   FETCH_ALL_ERROR,
   countriesQuery,
@@ -13,6 +15,8 @@ import {
 // export const fetchCountries = (): ThunkAction<Promise<Action>, CountriesState, void> => {
 export const fetchCountries = (): any => {
   return (dispatch: any) => {
+    dispatch(fetchAll()); // action to set isLoading to true
+
     // axios
     //   .post('https://countries.trevorblades.com/', {
     //     query: countriesQuery,
@@ -41,10 +45,21 @@ export const fetchCountries = (): any => {
   };
 };
 
-export const fetchCountriesSuccess = (countries: Country[]): CountriesActionTypes => ({
-  type: FETCH_ALL_SUCCESS,
-  payload: { countries },
+export const fetchAll = (): CountriesActionTypes => ({
+  type: FETCH_ALL,
 });
+
+export const fetchCountriesSuccess = (countries: Country[]): CountriesActionTypes => {
+  const data = keyBy(countries, 'code');
+
+  return {
+    type: FETCH_ALL_SUCCESS,
+    payload: {
+      countriesKeys: Object.keys(data),
+      countriesData: data,
+    },
+  };
+};
 
 export const fetchCountriesError = (error: any): CountriesActionTypes => ({
   type: FETCH_ALL_ERROR,

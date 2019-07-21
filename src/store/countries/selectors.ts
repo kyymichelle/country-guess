@@ -1,11 +1,13 @@
 import { AppState } from '../';
 import { Country, CountriesState } from './types';
 
-export const getCountries = (state: any): Country[] | null => {
-  return state.countries;
+export const getCountryByCode = (state: any, code: string): Country | undefined => {
+  return state.countries ? state.countries.countriesData[code] : undefined;
 };
 
-export const getRandomCountry = (state: any): Country | null => {
-  const { countries } = state.countries;
-  return countries && countries.length > 0 ? countries[Math.floor(Math.random() * countries.length)] : null;
+export const getRandomCountryCode = (state: any): Country | null => {
+  const { countriesKeys } = state.countries;
+  return countriesKeys && countriesKeys.length > 0
+    ? countriesKeys[Math.floor(Math.random() * countriesKeys.length)]
+    : null;
 };

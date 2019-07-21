@@ -2,13 +2,13 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Container } from 'react-bootstrap';
 import { fetchCountries } from '../store/countries/actions';
-import { getRandomCountry } from '../store/countries/selectors';
+import { getRandomCountryCode } from '../store/countries/selectors';
 import { NavMain } from '../components/Nav';
 import { CountryGuessGame } from '../components/CountryGuess';
 
 export const Home: React.FC = () => {
   const dispatch = useDispatch();
-  const country = useSelector(state => getRandomCountry(state));
+  const country = useSelector(state => getRandomCountryCode(state));
 
   React.useEffect(() => {
     dispatch(fetchCountries()); // Populate store

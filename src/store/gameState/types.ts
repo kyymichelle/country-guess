@@ -2,8 +2,15 @@
 export interface GameState {
   totalCorrect: number;
   totalGuesses: number;
-  currentSolution: string;
+  currentSolution: string | null;
 }
 
-export const SETUP = '@@app/gameState/SETUP';
-export const SETUP_SUCCESS = '@@app/gameState/SETUP_SUCCESS';
+// Action names
+export const SETUP = '@@app/countries/SETUP';
+
+// Action definitions
+interface SetupAction {
+  type: typeof SETUP;
+}
+
+export type GameStateActionTypes = SetupAction;
