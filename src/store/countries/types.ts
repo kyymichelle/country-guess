@@ -1,5 +1,5 @@
 // Interfaces
-export type CountriesKeyed = {
+export type CountriesByKey = {
   [key: string]: Country;
 };
 
@@ -22,7 +22,7 @@ export interface CountriesState {
   isLoading: boolean;
   error: string;
   countriesKeys: string[];
-  countriesData: CountriesKeyed;
+  countriesData: CountriesByKey;
 }
 
 // GraphQL query for https://countries.trevorblades.com/
@@ -50,19 +50,19 @@ interface FetchAllAction {
   type: typeof FETCH_ALL;
 }
 
-interface FetchAllActionSuccess {
+interface FetchAllSuccessAction {
   type: typeof FETCH_ALL_SUCCESS;
   payload: {
     countriesKeys: string[];
-    countriesData: CountriesKeyed;
+    countriesData: CountriesByKey;
   };
 }
 
-interface FetchAllActionError {
+interface FetchAllErrorAction {
   type: typeof FETCH_ALL_ERROR;
   payload: {
     error: any;
   };
 }
 
-export type CountriesActionTypes = FetchAllAction | FetchAllActionSuccess | FetchAllActionError;
+export type CountriesActionTypes = FetchAllAction | FetchAllSuccessAction | FetchAllErrorAction;
