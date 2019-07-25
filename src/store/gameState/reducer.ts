@@ -1,4 +1,4 @@
-import { SETUP, GameState, GameStateActionTypes } from './types';
+import { SETUP, SETUP_SUCCESS, SETUP_ERROR, GameState, GameStateActionTypes } from './types';
 
 const initialState: GameState = {
   isLoading: false,
@@ -16,6 +16,20 @@ export const gameStateReducer = (state = initialState, action: GameStateActionTy
       return {
         ...state,
         isLoading: true,
+      };
+
+    case SETUP_SUCCESS:
+      return {
+        ...state,
+        isLoading: false,
+      };
+
+    case SETUP_ERROR:
+      const { error } = action.payload;
+      return {
+        ...state,
+        isLoading: false,
+        error: error || 'There was an error fetching setting up :(',
       };
 
     default:

@@ -20,7 +20,7 @@ export interface Language {
 
 export interface CountriesState {
   isLoading: boolean;
-  error: string;
+  error?: string;
   countriesKeys: string[];
   countriesData: CountriesByKey;
 }

@@ -2,7 +2,6 @@ import { FETCH_ALL, FETCH_ALL_SUCCESS, FETCH_ALL_ERROR, CountriesActionTypes, Co
 
 const initialState: CountriesState = {
   isLoading: false,
-  error: '',
   countriesKeys: [],
   countriesData: {},
 };

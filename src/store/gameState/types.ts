@@ -1,6 +1,7 @@
 // Interfaces
 export interface GameState {
   isLoading: boolean;
+  error?: string;
   totalCorrect: number;
   totalGuesses: number;
   solution: {
