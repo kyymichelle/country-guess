@@ -5,7 +5,7 @@ const initialState: GameState = {
   totalCorrect: 0,
   totalGuesses: 0,
   solution: {
-    countryClue: [],
+    countryClue: '',
     countryKey: null,
   },
 };

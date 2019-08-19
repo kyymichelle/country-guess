@@ -4,8 +4,12 @@ export const getIsLoading = (state: any): boolean => {
   return state.countries ? state.countries.isLoading : false;
 };
 
+export const getCountriesKeys = (state: any): string[] => {
+  return state.countries.countriesKeys;
+};
+
 export const getCountryByCode = (state: any, code: string | null): Country | undefined => {
-  return state.countries && code ? state.countries.countriesData[code] : undefined;
+  return code ? state.countries.countriesData[code] : undefined;
 };
 
 export const getRandomCountryCode = (state: any): string | null => {

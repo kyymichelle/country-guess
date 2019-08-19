@@ -1,48 +1,51 @@
-import { Action, ActionCreator, Dispatch } from 'redux';
+import { ActionCreator, Dispatch } from 'redux';
 import { ThunkAction } from 'redux-thunk';
 import axios from 'axios';
 import { keyBy } from 'lodash';
-import {
-  Country,
-  FETCH_ALL,
-  FETCH_ALL_SUCCESS,
-  FETCH_ALL_ERROR,
-  countriesQuery,
-  CountriesState,
-  CountriesActionTypes,
-} from './types';
+import { Country, FETCH_ALL, FETCH_ALL_SUCCESS, FETCH_ALL_ERROR, countriesQuery, CountriesActionTypes } from './types';
 
-// export const fetchCountries = (): ThunkAction<Promise<Action>, CountriesState, void> => {
-export const fetchCountries = (): any => {
-  return (dispatch: any) => {
-    dispatch(fetchAll()); // action to set isLoading to true
+export const fetchCountries: ActionCreator<ThunkAction<Promise<any>, Country[], null, CountriesActionTypes>> = () => {
+  return async (dispatch: Dispatch) => {
+    // action to set isLoading to true
+    dispatch(fetchAll());
 
+    // Using API call
     // axios
     //   .post('https://countries.trevorblades.com/', {
     //     query: countriesQuery,
     //   })
-    //   .then(response => {
-    //     const { data } = response;
 
-    //     if (data && data.data) {
-    //       const { countries } = data.data;
-    //       dispatch(fetchCountriesSuccess(countries));
-    //     }
-    //   })
-    //   .catch(error => {
-    //     console.log('ERROR:', error);
-    //     dispatch(fetchCountriesError(error));
-    //   });
+    // Using test data
+    new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({
+          data: {
+            data: {
+              countries: [
+                { code: 'aus', name: 'australia' },
+                { code: 'ch', name: 'china' },
+                { code: 'nz', name: 'new zealand' },
+                { code: 'kr', name: 'south korea' },
+              ],
+            },
+          },
+        });
+      }, 2000);
+    })
 
-    // Test data
-    dispatch(
-      fetchCountriesSuccess([
-        { code: 'aus', name: 'australia' },
-        { code: 'ch', name: 'china' },
-        { code: 'nz', name: 'new zealand' },
-        { code: 'kr', name: 'south korea' },
-      ]),
-    );
+      // Resolve promises
+      .then((response: any) => {
+        const { data } = response;
+
+        if (data && data.data) {
+          const { countries } = data.data;
+          dispatch(fetchCountriesSuccess(countries));
+        }
+      })
+      .catch(error => {
+        console.log('ERROR:', error);
+        dispatch(fetchCountriesError(error));
+      });
   };
 };
 

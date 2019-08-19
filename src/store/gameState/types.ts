@@ -5,7 +5,7 @@ export interface GameState {
   totalCorrect: number;
   totalGuesses: number;
   solution: {
-    countryClue: string[];
+    countryClue: string;
     countryKey: string | null; // used to fetch the country data from countries reducer
   };
 }

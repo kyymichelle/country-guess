@@ -115,6 +115,7 @@ Initially, the redux store started with just the countries reducer - which popul
 
 #### TODOs
 
+- fetch countries list from API and on error, load from imported object
 - Fix tests
 - In /containers/Blog.tsx fix fetch() with something that works cross browser because it's not supported by IE - maybe a polyfill?
 - Tidy up the types in the redux store - e.g. fix `any` with appropriate types
