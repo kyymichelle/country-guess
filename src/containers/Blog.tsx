@@ -2,7 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 
-import BlogMarkdown from '../static/markdown/blog.md';
+import BlogMarkdown from '../assets/markdown/blog.md';
 import { NavMain } from '../components/Nav';
 
 export const Blog: React.FC = () => {

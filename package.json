@@ -45,6 +45,9 @@
     "redux-devtools-extension": "^2.13.8",
     "ts-jest": "^24.0.2"
   },
+  "resolutions": {
+    "eslint-utils": "^1.4.1"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
