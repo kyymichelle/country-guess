@@ -2,8 +2,7 @@ import { FETCH_ALL, FETCH_ALL_SUCCESS, FETCH_ALL_ERROR, CountriesActionTypes, Co
 
 const initialState: CountriesState = {
   isLoading: false,
-  countriesKeys: [],
-  countriesData: {},
+  data: {},
 };
 
 export const countriesReducer = (state = initialState, action: CountriesActionTypes): CountriesState => {
@@ -16,12 +15,11 @@ export const countriesReducer = (state = initialState, action: CountriesActionTy
       };
 
     case FETCH_ALL_SUCCESS:
-      const { countriesKeys, countriesData } = action.payload;
+      const { data } = action.payload;
       console.log('FETCH SUCCESS', action.payload);
       return {
         ...state,
-        countriesKeys,
-        countriesData,
+        data,
         isLoading: false,
       };
 

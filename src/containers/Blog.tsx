@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 
@@ -8,7 +8,7 @@ import { NavMain } from '../components/Nav';
 export const Blog: React.FC = () => {
   const [markdown, setMarkdown] = React.useState<string>('');
 
-  React.useEffect(() => {
+  useEffect(() => {
     fetch(BlogMarkdown)
       .then(response => response.text())
       .then(text => {

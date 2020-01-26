@@ -1,30 +1,37 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Container } from 'react-bootstrap';
 
-import { fetchCountries } from '../store/countries/actions';
-import { setupGameState } from '../store/gameState/actions';
-import { getIsLoading, getCountriesKeys, getCountryByCode, getRandomCountryCode } from '../store/countries/selectors';
+import { AppState } from '../store';
+import { getSolutionKey, setupGameState } from '../store/gameState';
+import {
+  fetchCountries,
+  getIsLoading,
+  getCountriesKeys,
+  getCountryByKey,
+  getRandomCountryKey,
+} from '../store/countries';
 
 import { NavMain } from '../components/Nav';
 import { CountryGuessGame } from '../components/CountryGuess';
 
 export const Home: React.FC = () => {
   const dispatch = useDispatch();
-  // const countryCode = useSelector(state => getRandomCountryCode(state));
-  const isLoading = useSelector(state => getIsLoading(state));
-  // const country = useSelector(state => getCountryByCode(state, countryCode));
-  const countriesKeys = useSelector(state => getCountriesKeys(state));
+  const isLoading = useSelector((state: AppState) => getIsLoading(state.countries));
+  const countryKey = useSelector((state: AppState) => getRandomCountryKey(state.countries));
+  const solutionKey = useSelector((state: AppState) => getSolutionKey(state.gameState));
+  // const solution = useSelector((state: AppState) => getCountryByKey(state, countryCode));
+  const countriesKeys = useSelector((state: AppState) => getCountriesKeys(state.countries));
 
-  React.useEffect(() => {
+  useEffect(() => {
     dispatch(fetchCountries()); // Populate store
   }, [dispatch]);
 
-  React.useEffect(() => {
-    console.log('KEYS', countriesKeys);
-    if (countriesKeys && countriesKeys.length > 0) {
-      dispatch(setupGameState('zimzalabim'));
-    }
+  useEffect(() => {
+    // if (!solutionKey && countryKey) {
+    //   console.log('KEYS', { solutionKey, countryKey });
+    //   dispatch(setupGameState(countryKey));
+    // }
   }, [countriesKeys]);
 
   return (
@@ -32,6 +39,7 @@ export const Home: React.FC = () => {
       <NavMain></NavMain>
       <Container className="py-5">
         <h1>Guess the country</h1>
+        {isLoading && <h1>Loading...</h1>}
         {/* {!isLoading && country ? (
           <CountryGuessGame solution={country}></CountryGuessGame>
         ) : (

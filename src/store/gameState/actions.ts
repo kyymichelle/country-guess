@@ -7,7 +7,7 @@ export const setupGameState: ActionCreator<ThunkAction<Promise<any>, {}, null, G
 ) => {
   return async (dispatch: ThunkDispatch<any, any, any>, getState: any) => {
     // action to set isLoading to true
-    dispatch(setup());
+    dispatch({ type: SETUP });
     console.log('STATE', initialCountry, getState());
 
     // dispatch(fetchCountries()).then((wut: any) => {
@@ -24,10 +24,6 @@ export const setupGameState: ActionCreator<ThunkAction<Promise<any>, {}, null, G
     // });
   };
 };
-
-export const setup = (): GameStateActionTypes => ({
-  type: SETUP,
-});
 
 export const setupGameStateSuccess = (): GameStateActionTypes => ({
   type: SETUP_SUCCESS,

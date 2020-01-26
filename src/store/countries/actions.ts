@@ -15,23 +15,27 @@ export const fetchCountries: ActionCreator<ThunkAction<Promise<any>, Country[], 
     //     query: countriesQuery,
     //   })
 
-    // Using test data
-    new Promise((resolve, reject) => {
-      setTimeout(() => {
-        resolve({
-          data: {
-            data: {
-              countries: [
-                { code: 'aus', name: 'australia' },
-                { code: 'ch', name: 'china' },
-                { code: 'nz', name: 'new zealand' },
-                { code: 'kr', name: 'south korea' },
-              ],
-            },
-          },
-        });
-      }, 2000);
-    })
+    // Using test data #1
+    axios
+      .get('data/countries.json')
+
+      // Using test data #2
+      // new Promise((resolve, reject) => {
+      //   setTimeout(() => {
+      //     resolve({
+      //       data: {
+      //         data: {
+      //           countries: [
+      //             { code: 'aus', name: 'australia' },
+      //             { code: 'ch', name: 'china' },
+      //             { code: 'nz', name: 'new zealand' },
+      //             { code: 'kr', name: 'south korea' },
+      //           ],
+      //         },
+      //       },
+      //     });
+      //   }, 2000);
+      // })
 
       // Resolve promises
       .then((response: any) => {
@@ -58,10 +62,7 @@ export const fetchCountriesSuccess = (countries: Country[]): CountriesActionType
 
   return {
     type: FETCH_ALL_SUCCESS,
-    payload: {
-      countriesKeys: Object.keys(data),
-      countriesData: data,
-    },
+    payload: { data },
   };
 };
 

@@ -1,19 +1,19 @@
-import { Country } from './types';
+import { Country, CountriesState } from './types';
 
-export const getIsLoading = (state: any): boolean => {
-  return state.countries ? state.countries.isLoading : false;
+export const getIsLoading = (state: CountriesState): boolean => {
+  return state ? state.isLoading : false;
 };
 
-export const getCountriesKeys = (state: any): string[] => {
-  return state.countries.countriesKeys;
+export const getCountriesKeys = (state: CountriesState): string[] => {
+  return Object.keys(state.data);
 };
 
-export const getCountryByCode = (state: any, code: string | null): Country | undefined => {
-  return code ? state.countries.countriesData[code] : undefined;
+export const getCountryByKey = (state: CountriesState, key: string | null): Country | null => {
+  return key ? state.data[key] : null;
 };
 
-export const getRandomCountryCode = (state: any): string | null => {
-  const { countriesKeys } = state.countries;
+export const getRandomCountryKey = (state: CountriesState): string | null => {
+  const countriesKeys = getCountriesKeys(state);
   return countriesKeys && countriesKeys.length > 0
     ? countriesKeys[Math.floor(Math.random() * countriesKeys.length)]
     : null;

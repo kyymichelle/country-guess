@@ -21,8 +21,7 @@ export interface Language {
 export interface CountriesState {
   isLoading: boolean;
   error?: string;
-  countriesKeys: string[];
-  countriesData: CountriesByKey;
+  data: CountriesByKey;
 }
 
 // GraphQL query for https://countries.trevorblades.com/
@@ -52,10 +51,7 @@ interface FetchAllAction {
 
 interface FetchAllSuccessAction {
   type: typeof FETCH_ALL_SUCCESS;
-  payload: {
-    countriesKeys: string[];
-    countriesData: CountriesByKey;
-  };
+  payload: { data: CountriesByKey };
 }
 
 interface FetchAllErrorAction {

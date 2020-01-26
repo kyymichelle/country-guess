@@ -4,10 +4,7 @@ export interface GameState {
   error?: string;
   totalCorrect: number;
   totalGuesses: number;
-  solution: {
-    countryClue: string;
-    countryKey: string | null; // used to fetch the country data from countries reducer
-  };
+  solutionKey: string | null; // used to fetch the country data from countries reducer
 }
 
 // Action names
