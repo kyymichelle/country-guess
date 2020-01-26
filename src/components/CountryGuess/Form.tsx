@@ -12,7 +12,7 @@ export const CountryGuessForm: React.FC<FormProps> = (props: FormProps) => {
   return (
     <Form name="country-guess-form" onSubmit={handleSubmit}>
       <Form.Group>
-        <Form.Control type="text" name="guess-input" placeholder="..." onChange={handleChange} required />
+        {/* <Form.Control type="text" name="guess-input" placeholder="..." onChange={handleChange} required /> */}
       </Form.Group>
       <Button type="submit">Make your guess</Button>
     </Form>
